@@ -81,23 +81,5 @@
                            &trans        &trans     &trans       &kp LGUI  &kp RGUI        &trans
             >;
         };
-
-        F-keys {
-            bindings = <
-        &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
-            >;
-        };
-
-        Num_pad {
-            bindings = <
-               &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &trans  &trans  &trans  &trans  &trans
-               &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT         &trans  &trans  &trans  &trans  &trans
-&kp KP_DIVIDE  &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER       &trans  &trans  &trans  &trans  &trans  &trans
-                                                 &kp KP_NUMLOCK   &trans           &trans             &trans  &trans  &trans
-            >;
-        };
     };
 };
