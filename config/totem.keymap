@@ -44,29 +44,12 @@
         };
     };
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        base_layer {
+        QWERTY {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "BASE";
@@ -86,7 +69,7 @@
            &kp Q  &kp W       &kp E         &kp R        &kp T        &kp Y          &kp U        &kp I          &kp O       &kp P
            &kp A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G        &kp H          &mt RSHFT J  &mt RCTRL K    &mt RALT L  &kp SEMICOLON
 &kp GRAVE  &kp Z  &kp X       &kp C         &kp V        &kp B        &kp N          &kp M        &kp COMMA      &kp DOT     &kp FSLH       &kp BACKSLASH
-                              &kp LEFT_WIN  &mo 1        &kp SPACE    &kp BACKSPACE  &mo 2        &kp RIGHT_WIN
+                              &kp LEFT_WIN  &mo 1        &kp SPACE    &kp BACKSPACE  &mo 0        &kp RIGHT_WIN
             >;
         };
 
@@ -98,19 +81,10 @@
 
         Navigation {
             bindings = <
-            &kp TAB   &kp HOME    &kp TAB       &kp END    &kp PG_UP        &kp  &kp  &kp  &kp  &kp
-            &kp CAPS  &kp LEFT    &kp UP_ARROW  &kp RIGHT  &kp PG_DN        &kp  &kp  &kp  &kp  &kp
-&kp ESCAPE  &kp       &kp DELETE  &kp DOWN      &kp ENTER  &kp BACKSPACE    &kp  &kp  &kp  &kp  &kp  &kp
-                                  &kp           &kp        &kp              &kp  &kp  &kp
-            >;
-        };
-
-        symbols {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &none    &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &none     &kp GRAVE  &kp MINUS       &kp EQUAL        &none
+        &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &kp CAPS  &kp APOS   &kp LBKT        &kp RBKT         &kp C_VOLUME_UP
+&trans  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &none     &kp BSLH   &kp SCROLLLOCK  &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &trans
+                           &trans        &trans     &trans       &trans    &trans     &trans
             >;
         };
 
@@ -119,7 +93,7 @@
          &kp TAB         &kp N1  &kp N2        &kp N3     &kp N4    &kp  &kp  &kp  &kp  &kp
          &kp LEFT_SHIFT  &kp A   &kp W         &kp D      &kp F     &kp  &kp  &kp  &kp  &kp
 &kp ESC  &kp LCTRL       &kp Q   &kp S         &kp E      &kp R     &kp  &kp  &kp  &kp  &kp  &kp
-                                 &kp LEFT_ALT  &kp SPACE  &mo 4     &kp  &kp  &kp
+                                 &kp LEFT_ALT  &kp SPACE  &mo 3     &kp  &kp  &kp
             >;
         };
 
