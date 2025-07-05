@@ -60,6 +60,12 @@
             key-positions = <15 5>;
             layers = <0>;
         };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <14 4>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -84,10 +90,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp ESC  &kp W       &kp E        &kp R        &kp T    &kp Y      &kp U          &kp I        &kp O       &kp BSLH
-       &kp A    &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G    &kp H      &mt RSHFT J    &mt RCTRL K  &mt RALT L  &kp SEMICOLON
-&kp Q  &kp Z    &kp X       &kp C        &kp V        &kp B    &kp N      &kp M          &kp COMMA    &kp DOT     &kp FSLH       &kp P
-                            &mo 3        &mo 1        &mo 2    &kp SPACE  &kp BACKSPACE  &none
+       &none  &kp W       &kp E        &kp R        &kp T    &kp Y      &kp U          &kp I        &kp O       &kp BSLH
+       &kp Q  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G    &kp H      &mt RSHFT J    &mt RCTRL K  &mt RALT L  &kp P
+&kp Z  &kp A  &kp X       &kp C        &kp V        &kp B    &kp N      &kp M          &kp COMMA    &kp DOT     &kp SEMI  &kp FSLH
+                          &mo 3        &mo 1        &mo 2    &kp SPACE  &kp BACKSPACE  &none
             >;
         };
 
