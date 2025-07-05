@@ -116,7 +116,7 @@
         };
 
         promethium {
-            label = "BASE";
+            label = "hands down";
             bindings = <
        &kp F  &kp P       &kp D        &kp L        &kp X          &kp SEMI         &kp U              &kp O        &kp Y            &kp B
        &kp S  &mt LALT N  &mt LCTRL T  &mt LSHFT H  &kp K          &kp COMMA        &mt RIGHT_SHIFT A  &mt RCTRL E  &mt RIGHT_ALT I  &kp C
