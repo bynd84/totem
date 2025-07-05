@@ -86,6 +86,8 @@
 &to 5  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
                           &mo 2         &trans     &trans       &trans  &trans  &trans
             >;
+
+            label = "nav";
         };
 
         Fkeys {
@@ -95,6 +97,8 @@
 &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans     &trans  &trans  &trans
             >;
+
+            label = "fk";
         };
 
         digits {
@@ -104,6 +108,8 @@
 &trans  &trans     &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
                            &trans  &trans  &trans       &trans  &trans  &trans
             >;
+
+            label = "dg";
         };
 
         symbols1 {
@@ -113,10 +119,12 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LS(EQUAL)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp BACKSLASH  &trans
                         &trans  &trans  &trans    &trans         &trans      &trans
             >;
+
+            label = "s1";
         };
 
         promethium {
-            label = "hands down";
+            label = "hd";
             bindings = <
        &kp F  &kp P       &kp D        &kp L        &kp X          &kp SEMI     &kp U              &kp O        &kp Y            &kp B
        &kp S  &mt LALT N  &mt LCTRL T  &mt LSHFT H  &kp K          &kp COMMA    &mt RIGHT_SHIFT A  &mt RCTRL E  &mt RIGHT_ALT I  &kp C
