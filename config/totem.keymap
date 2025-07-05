@@ -14,10 +14,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
-#define NAV  1
-#define SYM  2
-#define ADJ  3
-#define TVP1 4
+#define nav  1
+#define fk   2
+#define dg   3
+#define s1   4
 #define promethium  5
 
 &mt {
