@@ -34,13 +34,13 @@
         qwerty_Ls_brt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 7>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         qwerty_Rs_brt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <8 18>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         qwerty_quote {
