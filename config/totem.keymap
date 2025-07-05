@@ -32,7 +32,7 @@
         compatible = "zmk,combos";
 
         ls_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp EXCLAMATION>;
             key-positions = <17 7>;
             layers = <0>;
         };
@@ -55,7 +55,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        Typing {
+        qwerty {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "BASE";
@@ -112,6 +112,16 @@
         &trans  &trans  &trans  &trans  &trans    &kp LS(MINUS)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LS(EQUAL)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans
                         &trans  &trans  &trans    &trans         &trans      &trans
+            >;
+        };
+
+        promethium {
+            label = "BASE";
+            bindings = <
+       &kp F  &kp P       &kp D        &kp L        &kp X          &kp SEMI         &kp U              &kp O        &kp Y            &kp B
+       &kp S  &mt LALT N  &mt LCTRL T  &mt LSHFT H  &kp K          &kp COMMA        &mt RIGHT_SHIFT A  &mt RCTRL E  &mt RIGHT_ALT I  &kp C
+&kp Q  &kp V  &kp W       &kp G        &kp M        &kp J          &kp MINUS        &kp DOT            &kp APOS     &kp EQUAL        &kp FSLH  &kp Z
+                          &kp ESC      &kp R        &lt 3 SPACE    &lt 4 BACKSPACE  &kp ENTER          &none
             >;
         };
     };
