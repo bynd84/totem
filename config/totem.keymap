@@ -99,23 +99,5 @@
                                                  &kp KP_NUMLOCK   &trans           &trans             &trans  &trans  &trans
             >;
         };
-
-        game1 {
-            bindings = <
-         &kp TAB         &kp N1  &kp N2        &kp N3     &kp N4    &trans  &trans  &trans  &trans  &trans
-         &kp LEFT_SHIFT  &kp A   &kp W         &kp D      &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp LCTRL       &kp Q   &kp S         &kp E      &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-                                 &kp LEFT_ALT  &kp SPACE  &mo 5     &trans  &trans  &trans
-            >;
-        };
-
-        game2 {
-            bindings = <
-        &trans  &kp N8  &kp N9  &kp N0  &kp T     &trans  &trans  &trans  &trans  &trans
-        &trans  &kp N5  &kp N6  &kp N7  &kp G     &trans  &trans  &trans  &trans  &trans
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B     &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
     };
 };
