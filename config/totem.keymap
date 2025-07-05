@@ -60,12 +60,6 @@
             key-positions = <15 5>;
             layers = <0>;
         };
-
-        question {
-            bindings = <&kp QUESTION>;
-            key-positions = <14 4>;
-            layers = <0>;
-        };
     };
 
     keymap {
