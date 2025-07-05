@@ -31,10 +31,16 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 0>;
+        ls_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <17 7>;
+            layers = <0>;
+        };
+
+        rs_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 8>;
+            layers = <0>;
         };
     };
 
