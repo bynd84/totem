@@ -18,7 +18,7 @@
 #define fk   2
 #define dg   3
 #define s1   4
-#define promethium  5
+#define hd   5
 
 &mt {
     quick-tap-ms = <200>;
