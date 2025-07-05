@@ -31,20 +31,20 @@
     combos {
         compatible = "zmk,combos";
 
-        ls_bracket {
-            bindings = <&kp EXCLAMATION>;
+        qwerty_Ls_brt {
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 7>;
             layers = <0>;
         };
 
-        rs_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <18 8>;
+        qwerty_Rs_brt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <8 18>;
             layers = <0>;
         };
 
-        quote {
-            bindings = <&kp SINGLE_QUOTE>;
+        qwerty_quote {
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <6 16>;
             layers = <0>;
         };
