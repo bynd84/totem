@@ -81,10 +81,10 @@
 
         Navigation {
             bindings = <
-       &to 0    &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans  &trans  &trans  &trans  &trans
-       &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
-&to 5  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
-                          &mo 2         &trans     &trans       &trans  &trans  &trans
+        &none    &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans  &trans  &trans  &trans  &trans
+        &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
+&tog 5  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
+                           &mo 2         &trans     &trans       &trans  &trans  &trans
             >;
 
             label = "nav";
