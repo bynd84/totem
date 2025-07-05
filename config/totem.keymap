@@ -76,8 +76,8 @@
         Navigation {
             bindings = <
         &trans   &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans    &kp GRAVE       &kp MINUS        &kp EQUAL        &trans
-        &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &kp BSLH  &kp APOS        &kp LBKT         &kp RBKT         &kp C_VOLUME_UP
-&trans  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &kp CAPS  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp C_VOLUME_DOWN  &trans
+        &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &kp BSLH  &kp APOS        &kp LBKT         &kp RBKT         &trans
+&trans  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &kp CAPS  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &trans  &trans
                            &trans        &trans     &trans       &kp LGUI  &kp RGUI        &trans
             >;
         };
