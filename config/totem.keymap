@@ -72,10 +72,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q  &kp W       &kp E        &kp R        &kp T          &kp Y            &kp U        &kp I        &kp O       &kp P
-       &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H            &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
-&none  &kp Z  &kp X       &kp C        &kp V        &kp B          &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                          &kp ESC      &lt 1 SQT    &lt 3 SPACE    &lt 4 BACKSPACE  &kp ENTER    &none
+       &kp Q  &kp W       &kp E        &kp R        &kp T          &kp Y        &kp U          &kp I        &kp O       &kp P
+       &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H        &mt RSHFT J    &mt RCTRL K  &mt RALT L  &kp SEMICOLON
+&none  &kp Z  &kp X       &kp C        &kp V        &kp B          &kp N        &kp M          &kp COMMA    &kp DOT     &kp FSLH       &none
+                          &kp ESC      &lt 1 SQT    &lt 3 ENTER    &lt 4 SPACE  &kp BACKSPACE  &none
             >;
         };
 
@@ -110,7 +110,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &kp LS(N0)     &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans
         &trans  &trans  &trans  &trans  &trans    &kp LS(MINUS)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(EQUAL)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(EQUAL)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp BACKSLASH  &trans
                         &trans  &trans  &trans    &trans         &trans      &trans
             >;
         };
@@ -118,10 +118,10 @@
         promethium {
             label = "hands down";
             bindings = <
-       &kp F  &kp P       &kp D        &kp L        &kp X          &kp SEMI         &kp U              &kp O        &kp Y            &kp B
-       &kp S  &mt LALT N  &mt LCTRL T  &mt LSHFT H  &kp K          &kp COMMA        &mt RIGHT_SHIFT A  &mt RCTRL E  &mt RIGHT_ALT I  &kp C
-&kp Q  &kp V  &kp W       &kp G        &kp M        &kp J          &kp MINUS        &kp DOT            &kp APOS     &kp EQUAL        &kp FSLH  &kp Z
-                          &kp ESC      &kp R        &lt 3 SPACE    &lt 4 BACKSPACE  &kp ENTER          &none
+       &kp F  &kp P       &kp D        &kp L        &kp X          &kp SEMI     &kp U              &kp O        &kp Y            &kp B
+       &kp S  &mt LALT N  &mt LCTRL T  &mt LSHFT H  &kp K          &kp COMMA    &mt RIGHT_SHIFT A  &mt RCTRL E  &mt RIGHT_ALT I  &kp C
+&kp Q  &kp V  &kp W       &kp G        &kp M        &kp J          &kp MINUS    &kp DOT            &kp APOS     &kp EQUAL        &kp FSLH  &kp Z
+                          &kp ESC      &lt 1 R      &lt 3 ENTER    &lt 4 SPACE  &kp BACKSPACE      &none
             >;
         };
     };
