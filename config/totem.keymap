@@ -34,18 +34,24 @@
         qwerty_Ls_brt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 7>;
-            layers = <0 5>;
+            layers = <0>;
         };
 
         qwerty_Rs_brt {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 18>;
-            layers = <0 5>;
+            layers = <0>;
         };
 
         qwerty_quote {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <6 16>;
+            layers = <0>;
+        };
+
+        exclmrk {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 11>;
             layers = <0>;
         };
     };
@@ -81,9 +87,9 @@
 
         Navigation {
             bindings = <
-        &none    &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans  &trans  &trans  &trans  &trans
+        &trans   &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans  &trans  &trans  &trans  &trans
         &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
-&tog 5  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
                            &mo 2         &trans     &trans       &trans  &trans  &trans
             >;
 
@@ -121,16 +127,6 @@
             >;
 
             label = "s1";
-        };
-
-        promethium {
-            label = "hd";
-            bindings = <
-       &kp F  &kp P       &kp D        &kp L        &kp X          &kp SEMI     &kp U              &kp O        &kp Y            &kp B
-       &kp S  &mt LALT N  &mt LCTRL T  &mt LSHFT H  &kp K          &kp COMMA    &mt RIGHT_SHIFT A  &mt RCTRL E  &mt RIGHT_ALT I  &kp C
-&kp Q  &kp V  &kp W       &kp G        &kp M        &kp J          &kp MINUS    &kp DOT            &kp APOS     &kp EQUAL        &kp FSLH  &kp Z
-                          &kp ESC      &lt 1 R      &lt 3 ENTER    &lt 4 SPACE  &kp BACKSPACE      &none
-            >;
         };
     };
 };
