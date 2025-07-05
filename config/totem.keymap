@@ -21,10 +21,10 @@
 #define hd   5
 
 &mt {
-    quick-tap-ms = <120>;
+    quick-tap-ms = <50>;
     global-quick-tap;
-    flavor = "balanced";
-    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
 };
 
 / {
