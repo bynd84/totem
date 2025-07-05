@@ -49,7 +49,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        QWERTY {
+        Typing {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "BASE";
@@ -66,34 +66,46 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W       &kp E         &kp R        &kp T        &kp Y          &kp U        &kp I          &kp O       &kp P
-           &kp A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G        &kp H          &mt RSHFT J  &mt RCTRL K    &mt RALT L  &kp SEMICOLON
-&kp GRAVE  &kp Z  &kp X       &kp C         &kp V        &kp B        &kp N          &kp M        &kp COMMA      &kp DOT     &kp FSLH       &kp BACKSLASH
-                              &kp LEFT_WIN  &mo 1        &kp SPACE    &kp BACKSPACE  &mo 0        &kp RIGHT_WIN
+       &kp Q  &kp W       &kp E        &kp R        &kp T        &kp Y          &kp U        &kp I        &kp O       &kp P
+       &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H          &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
+&none  &kp Z  &kp X       &kp C        &kp V        &kp B        &kp N          &kp M        &kp COMMA    &kp DOT     &kp FSLH       &none
+                          &none        &key_repeat  &kp SPACE    &kp BACKSPACE  &kp ENTER    &none
             >;
         };
-
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         Navigation {
             bindings = <
         &trans   &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans    &kp GRAVE       &kp MINUS        &kp EQUAL        &trans
         &kp DEL  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &kp BSLH  &kp APOS        &kp LBKT         &kp RBKT         &kp C_VOLUME_UP
 &trans  &kp INS  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &kp CAPS  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp C_VOLUME_DOWN  &trans
-                           &trans        &trans     &trans       &trans    &trans          &trans
+                           &trans        &trans     &trans       &kp LGUI  &kp RGUI        &trans
+            >;
+        };
+
+        F-keys {
+            bindings = <
+        &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans  &trans  &trans
+            >;
+        };
+
+        Num_pad {
+            bindings = <
+               &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &trans  &trans  &trans  &trans  &trans
+               &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT         &trans  &trans  &trans  &trans  &trans
+&kp KP_DIVIDE  &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER       &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &kp KP_NUMLOCK   &trans           &trans             &trans  &trans  &trans
             >;
         };
 
         game1 {
             bindings = <
          &kp TAB         &kp N1  &kp N2        &kp N3     &kp N4    &trans  &trans  &trans  &trans  &trans
-         &kp LEFT_SHIFT  &kp A   &kp W         &kp D      &kp F     &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp LCTRL       &kp Q   &kp S         &kp E      &kp R     &trans  &trans  &trans  &trans  &trans  &trans
-                                 &kp LEFT_ALT  &kp SPACE  &mo 3     &trans  &trans  &trans
+         &kp LEFT_SHIFT  &kp A   &kp W         &kp D      &kp R     &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp LCTRL       &kp Q   &kp S         &kp E      &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp LEFT_ALT  &kp SPACE  &mo 5     &trans  &trans  &trans
             >;
         };
 
