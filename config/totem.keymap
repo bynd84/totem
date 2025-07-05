@@ -42,6 +42,12 @@
             key-positions = <18 8>;
             layers = <0>;
         };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <6 16>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -66,10 +72,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W       &kp E        &kp R        &kp T          &kp Y            &kp U        &kp I        &kp O       &kp P
-           &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H            &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
-&kp GRAVE  &kp Z  &kp X       &kp C        &kp V        &kp B          &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                              &kp ESC      &lt 1 SQT    &lt 3 SPACE    &lt 4 BACKSPACE  &kp ENTER    &none
+       &kp Q  &kp W       &kp E        &kp R        &kp T          &kp Y            &kp U        &kp I        &kp O       &kp P
+       &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H            &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
+&none  &kp Z  &kp X       &kp C        &kp V        &kp B          &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
+                          &kp ESC      &lt 1 SQT    &lt 3 SPACE    &lt 4 BACKSPACE  &kp ENTER    &none
             >;
         };
 
