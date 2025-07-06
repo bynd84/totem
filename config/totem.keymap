@@ -207,8 +207,8 @@
         fmouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1500)   &mkp MB2           &mkp MB3  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1400)   &mkp MB2           &mkp MB3  &trans
                         &trans  &trans  &trans    &none           &mmv MOVE_DOWN      &tog 4
             >;
 
