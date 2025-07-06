@@ -72,21 +72,21 @@
         };
 
         wsad_toggle {
-            bindings = <&tog 6>;
+            bindings = <&tog 5>;
             key-positions = <14 25 10 21>;
-            layers = <0 6>;
+            layers = <0 5>;
         };
 
         wsad_n4 {
             bindings = <&kp NUMBER_4>;
             key-positions = <1 2>;
-            layers = <6>;
+            layers = <5>;
         };
 
         wsad_n5 {
             bindings = <&kp N5>;
             key-positions = <2 3>;
-            layers = <6>;
+            layers = <5>;
         };
     };
 
@@ -170,35 +170,34 @@
 
         fmouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP       &mmv MOVE_RIGHT
+        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_RIGHT     &mmv MOVE_UP        &mmv MOVE_LEFT     &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1800)   &mkp MB2           &none            &trans
-                        &trans  &trans  &trans    &trans          &mo 5               &tog 4
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1800)   &mkp MB2           &none     &trans
+                        &trans  &trans  &trans    &none           &mmv MOVE_DOWN      &tog 4
             >;
 
             label = "fmouse";
         };
 
-        smouse {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans          &trans           &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1        &mmv MOVE_DOWN  &mkp MB2         &mkp MB3  &trans
-                        &trans  &trans  &trans    &trans          &trans          &trans
-            >;
-
-            label = "smouse";
-        };
-
         wsad {
             bindings = <
-        &kp TAB    &kp N1  &kp N2    &kp N3     &kp R     &trans  &trans  &trans  &trans  &trans
-        &kp LSHFT  &kp S   &kp W     &kp D      &kp F     &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL  &kp Q   &kp A     &kp E      &kp V     &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
+         &kp TAB    &kp N1  &kp N2    &kp N3     &kp R    &trans  &trans  &trans  &trans  &trans
+         &kp LSHFT  &kp A   &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp LCTRL  &kp Q   &kp S     &kp E      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
+                            &kp LALT  &kp SPACE  &mo 6    &trans  &trans  &trans
             >;
 
             label = "wsad";
+        };
+
+        wsad2 {
+            label = "wsad2";
+            bindings = <
+           &kp GRAVE  &kp F4  &kp F5    &kp F6     &kp T     &trans  &trans  &trans  &trans  &trans
+           &kp LSHFT  &kp F1  &kp F2    &kp F3     &kp G     &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp LCTRL  &kp Z   &kp X     &kp C      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
+            >;
         };
     };
 
