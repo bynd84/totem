@@ -71,10 +71,22 @@
             layers = <0>;
         };
 
-        wsad {
+        wsad_toggle {
             bindings = <&tog 6>;
             key-positions = <14 25 10 21>;
             layers = <0 6>;
+        };
+
+        wsad_n4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <1 2>;
+            layers = <6>;
+        };
+
+        wsad_n5 {
+            bindings = <&kp N5>;
+            key-positions = <2 3>;
+            layers = <6>;
         };
     };
 
@@ -158,9 +170,9 @@
 
         fmouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &trans              &trans              &trans             &trans
+        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP       &mmv MOVE_RIGHT
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1800)   &mkp MB2           &none     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1800)   &mkp MB2           &none            &trans
                         &trans  &trans  &trans    &trans          &mo 5               &tog 4
             >;
 
