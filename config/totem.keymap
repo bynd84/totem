@@ -153,8 +153,8 @@
         slow_mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &trans             &trans             &trans            &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-500)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(200)   &mkp MB2          &none     &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(1800)   &mkp MB2          &none     &trans
                         &trans  &trans  &trans    &trans          &trans             &tog 4
             >;
 
