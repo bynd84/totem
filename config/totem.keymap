@@ -16,11 +16,10 @@
 
 #define BASE 0
 #define nav  1
-#define fk   2
-#define dg   3
-#define s1   4
-#define slow_mouse   5
-#define fast_mouse   6
+#define dg   2
+#define fk   3
+#define slow_mouse   4
+#define fast_mouse   5
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1800  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
