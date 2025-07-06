@@ -171,6 +171,17 @@
 
             label = "smouse";
         };
+
+        wsad {
+            bindings = <
+        &kp TAB    &kp N1  &kp N2    &kp N3     &kp R     &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp S   &kp W     &kp D      &kp F     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp Q   &kp A     &kp E      &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
+            >;
+
+            label = "wsad";
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
