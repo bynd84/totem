@@ -20,8 +20,8 @@
 #define fk   3
 #define slow_mouse   4
 #define fast_mouse   5
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 200  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 180  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
     x-input-code = <INPUT_REL_X>;
@@ -171,8 +171,8 @@
         fmouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_RIGHT     &mmv MOVE_UP        &mmv MOVE_LEFT     &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1800)   &mkp MB2           &none     &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1500)   &mkp MB2           &none     &trans
                         &trans  &trans  &trans    &none           &mmv MOVE_DOWN      &tog 4
             >;
 
