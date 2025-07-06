@@ -20,7 +20,7 @@
 #define fk   3
 #define slow_mouse   4
 #define fast_mouse   5
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1800  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 200  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 &mmv {
