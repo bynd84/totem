@@ -70,6 +70,12 @@
             key-positions = <15 5>;
             layers = <0>;
         };
+
+        wsad {
+            bindings = <&tog 6>;
+            key-positions = <14 25 10 21>;
+            layers = <0 6>;
+        };
     };
 
     behaviors {
