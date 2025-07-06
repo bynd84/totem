@@ -12,6 +12,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define nav  1
@@ -100,10 +101,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W              &kp E           &kp R                &kp T    &kp Y          &kp U                 &kp I           &kp O               &kp P
-           &kp A  &hrmod LEFT_ALT S  &hrmod LCTRL D  &hrmod LEFT_SHIFT F  &kp G    &kp H          &hrmod RIGHT_SHIFT J  &hrmod RCTRL K  &hrmod RIGHT_ALT L  &kp SEMI
-&kp GRAVE  &kp Z  &kp X              &kp C           &kp V                &kp B    &kp N          &kp M                 &kp COMMA       &kp DOT             &kp FSLH  &kp BSLH
-                                     &mo 3           &mo 1                &mo 2    &kp BACKSPACE  &kp SPACE             &none
+       &kp GRAVE  &kp W              &kp E           &kp R                &kp T    &kp Y          &kp U                 &kp I           &kp O               &kp BSLH
+       &kp Q      &hrmod LEFT_ALT S  &hrmod LCTRL D  &hrmod LEFT_SHIFT F  &kp G    &kp H          &hrmod RIGHT_SHIFT J  &hrmod RCTRL K  &hrmod RIGHT_ALT L  &kp P
+&kp Z  &kp A      &kp X              &kp C           &kp V                &kp B    &kp N          &kp M                 &kp COMMA       &kp DOT             &kp SEMI  &kp FSLH
+                                     &mo 3           &mo 1                &mo 2    &kp BACKSPACE  &kp SPACE             &mo 4
             >;
         };
 
@@ -138,6 +139,15 @@
             >;
 
             label = "fk";
+        };
+
+        mouse {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mmv MOVE_Y(100)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
