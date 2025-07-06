@@ -77,14 +77,14 @@
             layers = <0 5>;
         };
 
-        wsad_n4 {
-            bindings = <&kp NUMBER_4>;
+        wsad_n5 {
+            bindings = <&kp N5>;
             key-positions = <1 2>;
             layers = <5>;
         };
 
-        wsad_n5 {
-            bindings = <&kp N5>;
+        wsad_n6 {
+            bindings = <&kp NUMBER_6>;
             key-positions = <2 3>;
             layers = <5>;
         };
@@ -131,7 +131,7 @@
            &kp Q  &kp W              &kp E           &kp R                &kp T    &kp Y          &kp U                 &kp I           &kp O               &kp P
            &kp A  &hrmod LEFT_ALT S  &hrmod LCTRL D  &hrmod LEFT_SHIFT F  &kp G    &kp H          &hrmod RIGHT_SHIFT J  &hrmod RCTRL K  &hrmod RIGHT_ALT L  &kp SEMI
 &kp GRAVE  &kp Z  &kp X              &kp C           &kp V                &kp B    &kp N          &kp M                 &kp COMMA       &kp DOT             &kp FSLH  &kp BSLH
-                                     &mo 3           &mo 1                &mo 2    &kp BACKSPACE  &kp SPACE             &tog 4
+                                     &mo 3           &mo 2                &mo 1    &kp BACKSPACE  &kp SPACE             &tog 4
             >;
         };
 
@@ -181,10 +181,10 @@
 
         wsad {
             bindings = <
-         &kp TAB    &kp N1  &kp N2    &kp N3     &kp R    &trans  &trans  &trans  &trans  &trans
-         &kp LSHFT  &kp A   &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp LCTRL  &kp Q   &kp S     &kp E      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                            &kp LALT  &kp SPACE  &mo 6    &trans  &trans  &trans
+         &kp TAB    &kp N1  &kp N2    &kp N3     &kp N4    &trans  &trans  &trans  &trans  &trans
+         &kp LSHFT  &kp A   &kp W     &kp D      &kp R     &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp LCTRL  &kp Q   &kp S     &kp E      &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+                            &kp LALT  &kp SPACE  &mo 6     &trans  &trans  &trans
             >;
 
             label = "wsad";
