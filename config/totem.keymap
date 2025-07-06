@@ -77,39 +77,51 @@
             layers = <0 5>;
         };
 
-        wsad_n5 {
-            bindings = <&kp N5>;
+        wsad_f1 {
+            bindings = <&kp F1>;
             key-positions = <1 2>;
             layers = <5>;
         };
 
-        wsad_n6 {
-            bindings = <&kp NUMBER_6>;
+        wsad_f2 {
+            bindings = <&kp F2>;
             key-positions = <2 3>;
             layers = <5>;
         };
 
-        wsad_n7 {
-            bindings = <&kp N7>;
+        wsad_f3 {
+            bindings = <&kp F3>;
             key-positions = <3 4>;
             layers = <5>;
         };
 
-        wsad_n8 {
-            bindings = <&kp N8>;
+        wsad_f4 {
+            bindings = <&kp F4>;
             key-positions = <4 14>;
             layers = <5>;
         };
 
-        wsad_n9 {
-            bindings = <&kp N9>;
+        wsad_f5 {
+            bindings = <&kp F5>;
             key-positions = <25 14>;
             layers = <5>;
         };
 
-        wsad_n0 {
-            bindings = <&kp N0>;
+        wsad_f6 {
+            bindings = <&kp F6>;
             key-positions = <25 24>;
+            layers = <5>;
+        };
+
+        wsad_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1>;
+            layers = <5>;
+        };
+
+        wsad_f7 {
+            bindings = <&kp F7>;
+            key-positions = <24 22>;
             layers = <5>;
         };
     };
