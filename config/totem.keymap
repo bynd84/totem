@@ -67,13 +67,13 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <15 5>;
+            key-positions = <3 13>;
             layers = <0>;
         };
 
         wsad_toggle {
             bindings = <&tog 5>;
-            key-positions = <14 25 10 21>;
+            key-positions = <14 25>;
             layers = <0 5>;
         };
 
@@ -105,6 +105,18 @@
             bindings = <&sl 3>;
             key-positions = <24 22>;
             layers = <5>;
+        };
+
+        qwerty_L_par {
+            bindings = <&kp LS(N9)>;
+            key-positions = <11 1>;
+            layers = <0>;
+        };
+
+        qwerty_R_par {
+            bindings = <&kp LS(N0)>;
+            key-positions = <2 12>;
+            layers = <0>;
         };
     };
 
@@ -146,10 +158,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W              &kp E           &kp R                &kp T    &kp Y          &kp U                 &kp I           &kp O               &kp P
-           &kp A  &hrmod LEFT_ALT S  &hrmod LCTRL D  &hrmod LEFT_SHIFT F  &kp G    &kp H          &hrmod RIGHT_SHIFT J  &hrmod RCTRL K  &hrmod RIGHT_ALT L  &kp SEMI
-&kp GRAVE  &kp Z  &kp X              &kp C           &kp V                &kp B    &kp N          &kp M                 &kp COMMA       &kp DOT             &kp FSLH  &kp BSLH
-                                     &mo 3           &mo 2                &mo 1    &kp BACKSPACE  &kp SPACE             &tog 4
+           &kp Q              &kp W              &kp E           &kp R                &kp T    &kp Y          &kp U                 &kp I           &kp O               &kp P
+           &hrmod LEFT_GUI A  &hrmod LEFT_ALT S  &hrmod LCTRL D  &hrmod LEFT_SHIFT F  &kp G    &kp H          &hrmod RIGHT_SHIFT J  &hrmod RCTRL K  &hrmod RIGHT_ALT L  &kp SEMI
+&kp GRAVE  &kp Z              &kp X              &kp C           &kp V                &kp B    &kp N          &kp M                 &kp COMMA       &kp DOT             &kp FSLH  &kp BSLH
+                                                 &mo 3           &mo 2                &mo 1    &kp BACKSPACE  &kp SPACE             &tog 4
             >;
         };
 
