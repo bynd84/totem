@@ -205,10 +205,10 @@
 
         wsad {
             bindings = <
-         &kp TAB    &kp N1  &kp N2    &kp N3     &kp N4    &trans  &trans  &trans  &trans  &trans
-         &kp LSHFT  &kp A   &kp W     &kp D      &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp LCTRL  &kp Q   &kp S     &kp E      &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-                            &kp LALT  &kp SPACE  &mo 6     &trans  &trans  &trans
+              &kp TAB    &kp N1  &kp N2    &kp N3     &kp N4    &trans  &trans  &trans  &trans  &trans
+              &kp LSHFT  &kp A   &kp W     &kp D      &kp R     &trans  &trans  &trans  &trans  &trans
+&lt 7 ESCAPE  &kp LCTRL  &kp Q   &kp S     &kp E      &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp LALT  &kp SPACE  &mo 6     &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -217,10 +217,20 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-           &kp GRAVE  &kp F4  &kp F5    &kp F6     &kp T     &trans  &trans  &trans  &trans  &trans
-           &kp LSHFT  &kp F1  &kp F2    &kp F3     &kp G     &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp LCTRL  &kp Z   &kp X     &kp C      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+           &kp MINUS  &kp N0  &kp N9    &kp N8     &kp T     &trans  &trans  &trans  &trans  &trans
+           &kp EQUAL  &kp N5  &kp N6    &kp N7     &kp G     &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp BSPC   &kp Z   &kp X     &kp C      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
                               &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        wsad3 {
+            label = "wsad3";
+            bindings = <
+        &kp P     &kp O    &kp I      &kp U     &kp Y        &trans  &trans  &trans  &trans  &trans
+        &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans  &trans  &trans  &trans  &trans
+&trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M     &kp N        &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LBKT   &kp RBKT  &kp ENTER    &trans  &trans  &trans
             >;
         };
     };
