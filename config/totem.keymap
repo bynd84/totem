@@ -21,7 +21,7 @@
 #define s1   4
 #define hd   5
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1800  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 &mmv {
@@ -154,9 +154,9 @@
         slow_mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &trans             &trans             &trans            &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(600)   &mkp MB2          &mkp MB3  &trans
-                        &trans  &trans  &trans    &trans          &mo 5              &none
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(500)   &mkp MB2          &mkp MB3  &trans
+                        &trans  &trans  &trans    &trans          &none              &none
             >;
 
             label = "slow_mouse";
