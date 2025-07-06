@@ -141,13 +141,26 @@
             label = "fk";
         };
 
-        mouse {
+        slow_mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &trans             &trans             &trans            &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &mkp MB3
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(600)   &mkp MB2          &mkp MB3  &trans
-                        &trans  &trans  &trans    &trans          &trans             &tog 4
+                        &trans  &trans  &trans    &trans          &mo 5              &tog 4
             >;
+
+            label = "slow_mouse";
+        };
+
+        fast_mouse {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans          &trans             &trans             &trans            &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(600)   &mkp MB2          &mkp MB3  &trans
+                        &trans  &trans  &trans    &trans          &trans             &none
+            >;
+
+            label = "fast_mouse";
         };
     };
 };
