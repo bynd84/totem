@@ -101,26 +101,8 @@
             layers = <5>;
         };
 
-        wsad_f5 {
-            bindings = <&kp F5>;
-            key-positions = <25 14>;
-            layers = <5>;
-        };
-
-        wsad_f6 {
-            bindings = <&kp F6>;
-            key-positions = <25 24>;
-            layers = <5>;
-        };
-
-        wsad_grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <0 1>;
-            layers = <5>;
-        };
-
-        wsad_f7 {
-            bindings = <&kp F7>;
+        wsad_fkeys {
+            bindings = <&sl 3>;
             key-positions = <24 22>;
             layers = <5>;
         };
@@ -229,9 +211,9 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-           &kp MINUS  &kp N0  &kp N9    &kp N8     &kp T     &trans  &trans  &trans  &trans  &trans
-           &kp EQUAL  &kp N5  &kp N6    &kp N7     &kp G     &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp BSPC   &kp Z   &kp X     &kp C      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+           &kp N0     &kp N7  &kp N8    &kp N9     &kp T     &trans  &trans  &trans  &trans  &trans
+           &kp MINUS  &kp V   &kp N5    &kp N6     &kp G     &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp EQUAL  &kp Z   &kp X     &kp C      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
                               &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
             >;
         };
