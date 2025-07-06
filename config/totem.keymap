@@ -88,6 +88,30 @@
             key-positions = <2 3>;
             layers = <5>;
         };
+
+        wsad_n7 {
+            bindings = <&kp N7>;
+            key-positions = <3 4>;
+            layers = <5>;
+        };
+
+        wsad_n8 {
+            bindings = <&kp N8>;
+            key-positions = <4 14>;
+            layers = <5>;
+        };
+
+        wsad_n9 {
+            bindings = <&kp N9>;
+            key-positions = <25 14>;
+            layers = <5>;
+        };
+
+        wsad_n0 {
+            bindings = <&kp N0>;
+            key-positions = <25 24>;
+            layers = <5>;
+        };
     };
 
     behaviors {
