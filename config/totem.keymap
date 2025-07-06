@@ -173,4 +173,13 @@
             label = "fast_mouse";
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        navmouse {
+            if-layers = <1>;
+            then-layer = <4>;
+        };
+    };
 };
