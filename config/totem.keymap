@@ -153,9 +153,9 @@
         slow_mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &trans             &trans             &trans            &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(500)   &mkp MB2          &mkp MB3  &trans
-                        &trans  &trans  &trans    &mo 5           &trans             &tog 4
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-500)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(200)   &mkp MB2          &none     &trans
+                        &trans  &trans  &trans    &trans          &trans             &tog 4
             >;
 
             label = "slow_mouse";
@@ -166,7 +166,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans          &trans           &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &mkp MB3
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1        &mmv MOVE_DOWN  &mkp MB2         &mkp MB3  &trans
-                        &trans  &trans  &trans    &trans          &trans          &tog 5
+                        &trans  &trans  &trans    &trans          &mo 4           &tog 5
             >;
 
             label = "fast_mouse";
