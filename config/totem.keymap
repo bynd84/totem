@@ -188,10 +188,10 @@
 
         fmouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &trans
+        &trans  &trans  &trans  &trans  &trans    &trans          &none               &none               &none              &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-1200)  &mmv MOVE_Y(-1200)  &mmv MOVE_X(1200)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1            &mmv MOVE_Y(1200)   &mkp MB2           &mkp MB3  &trans
-                        &trans  &trans  &trans    &none           &mmv MOVE_DOWN      &tog 4
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB2            &mmv MOVE_Y(1200)   &mkp MB3           &none   &trans
+                        &trans  &trans  &trans    &none           &mkp MB1            &tog 4
             >;
 
             label = "fmouse";
