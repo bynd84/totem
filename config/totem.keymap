@@ -61,7 +61,7 @@
 
         exclmrk {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <1 11>;
+            key-positions = <10 0>;
             layers = <0>;
         };
 
