@@ -155,8 +155,8 @@
         fast_mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &trans             &trans             &trans            &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(600)   &mkp MB2          &mkp MB3  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-2000)  &mmv MOVE_Y(-2000)  &mmv MOVE_X(2000)  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MB1           &mmv MOVE_Y(2000)   &mkp MB2          &mkp MB3  &trans
                         &trans  &trans  &trans    &trans          &trans             &none
             >;
 
