@@ -22,7 +22,6 @@
 #define dg   5
 #define fmouse   6
 #define np    7
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
@@ -75,7 +74,7 @@
         };
 
         mouse {
-            bindings = <&tog 4>;
+            bindings = <&tog 6>;
             key-positions = <27 29>;
             layers = <0 7 6>;
         };
@@ -94,7 +93,7 @@
 
         numpad {
             bindings = <&tog 7>;
-            key-positions = <30 19 26 15>;
+            key-positions = <30 26>;
             layers = <0 7>;
         };
 
@@ -206,7 +205,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp KP_ENTER     &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_MINUS     &kp KP_PLUS
                         &trans  &trans  &trans    &trans           &trans           &trans
             >;
-           label = "np";
+
+            label = "np";
         };
     };
 
