@@ -131,6 +131,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        holdshiftmo: holdshiftmo {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDSHIFTMO";
+            bindings = <&mo>, <&kt>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -155,10 +164,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W  &kp E  &kp R  &kp T                   &kp Y      &kp U      &kp I      &kp O    &kp P
-         &kp A  &kp S  &kp D  &kp F  &kp G                   &kp H      &kp J      &kp K      &kp L    &kp SEMI
-&kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp B                   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                       &mo 3  &mo 1  &stickyhold 2 LSHIFT    &kp SPACE  &sk LCTRL  &sk LALT
+         &kp Q  &kp W  &kp E                      &kp R  &kp T                   &kp Y      &kp U      &kp I      &kp O    &kp P
+         &kp A  &kp S  &kp D                      &kp F  &kp G                   &kp H      &kp J      &kp K      &kp L    &kp SEMI
+&kp ESC  &kp Z  &kp X  &kp C                      &kp V  &kp B                   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
+                       &holdshiftmo 3 LEFT_SHIFT  &mo 1  &stickyhold 2 LSHIFT    &kp SPACE  &sk LCTRL  &sk LALT
             >;
         };
 
@@ -186,10 +195,10 @@
 
         Fkeys {
             bindings = <
-         &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
-         &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp A   &kp W   &kp N3  &trans
-&kp ESC  &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans  &trans  &trans     &trans  &trans  &trans
+          &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
+          &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp A   &kp W   &kp N3  &trans
+&kp CAPS  &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans  &trans  &trans     &trans  &trans  &trans
             >;
 
             label = "fk";
