@@ -134,10 +134,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp E  &kp R  &kp T             &kp Y          &kp U      &kp I      &kp O    &kp P
-           &kp A  &kp S  &kp D  &kp F  &kp G             &kp H          &kp J      &kp K      &kp L    &kp SEMI
-&kp GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                         &none  &mo 2  &kp LEFT_SHIFT    &kp BACKSPACE  &kp SPACE  &tog 4
+           &kp Q  &kp W  &kp E  &kp R  &kp T             &kp Y      &kp U      &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D  &kp F  &kp G             &kp H      &kp J      &kp K      &kp L    &kp SEMI
+&kp GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B             &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
+                         &none  &mo 2  &kp LEFT_SHIFT    &kp LCTRL  &kp SPACE  &none
             >;
         };
 
@@ -154,10 +154,10 @@
 
         digits {
             bindings = <
-            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
-            &trans     &kp N4  &kp N5  &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &trans     &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans  &trans  &trans       &trans  &trans  &trans
+           &kp T  &kp N7  &kp N8  &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
+           &kp G  &kp N4  &kp N5  &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp B  &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans       &trans  &trans  &trans
             >;
 
             label = "dg";
@@ -165,9 +165,9 @@
 
         Fkeys {
             bindings = <
-        &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp A   &kp W   &kp N3  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+       &kp ESC  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
+       &trans   &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp A   &kp W   &kp N3  &trans
+&none  &trans   &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans     &trans  &trans  &trans
             >;
 
@@ -189,21 +189,11 @@
             bindings = <
               &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
               &kp LSHFT  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&lt 7 ESCAPE  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp LALT  &kp SPACE  &mo 6    &trans  &trans  &trans
+&lt 6 ESCAPE  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
+                                &kp LALT  &kp SPACE  &mo 2    &trans  &trans  &trans
             >;
 
             label = "wsad";
-        };
-
-        wsad2 {
-            label = "wsad2";
-            bindings = <
-           &kp N0     &kp N7  &kp N8    &kp N9     &kp T     &trans  &trans  &trans  &trans  &trans
-           &kp MINUS  &kp N4  &kp N5    &kp N6     &kp G     &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp EQUAL  &kp N1  &kp N2    &kp N3     &kp B     &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
-            >;
         };
 
         wsad3 {
