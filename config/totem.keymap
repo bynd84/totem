@@ -177,10 +177,10 @@
 
         Fkeys {
             bindings = <
-       &kp ESC  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
-       &trans   &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp A   &kp W   &kp N3  &trans
-&none  &trans   &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+         &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
+         &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp A   &kp W   &kp N3  &trans
+&kp ESC  &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans  &trans  &trans     &trans  &trans  &trans
             >;
 
             label = "fk";
