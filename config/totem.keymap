@@ -83,62 +83,10 @@
             layers = <0>;
         };
 
-        qwerty_ent {
-            bindings = <&kp ENTER>;
-            key-positions = <5 6>;
-            layers = <0>;
-        };
-
-        qwerty_bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <15 16>;
-            layers = <0>;
-        };
-
-        qwerty_nav {
-            bindings = <&tog 1>;
-            key-positions = <10 25>;
-            layers = <0 1>;
-        };
-
         mouse {
             bindings = <&tog 4>;
             key-positions = <27 29>;
             layers = <0 4 5>;
-        };
-    };
-
-    behaviors {
-        hrmod: hrmod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HRMOD";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            require-prior-idle-ms = <125>;
-            flavor = "balanced";
-            hold-trigger-key-positions = <13 12 11 16 17 18>;
-            hold-trigger-on-release;
-        };
-
-        stickyhold: stickyhold {
-            compatible = "zmk,behavior-hold-tap";
-            label = "STICKYHOLD";
-            bindings = <&mo>, <&sk>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
-        holdshiftmo: holdshiftmo {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLDSHIFTMO";
-            bindings = <&mo>, <&kt>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
         };
     };
 
@@ -164,19 +112,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W  &kp E                      &kp R  &kp T                   &kp Y      &kp U      &kp I      &kp O    &kp P
-         &kp A  &kp S  &kp D                      &kp F  &kp G                   &kp H      &kp J      &kp K      &kp L    &kp SEMI
-&kp ESC  &kp Z  &kp X  &kp C                      &kp V  &kp B                   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                       &holdshiftmo 3 LEFT_SHIFT  &mo 1  &stickyhold 2 LSHIFT    &kp SPACE  &sk LCTRL  &sk LALT
+         &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y                 &kp U      &kp I      &kp O    &kp P
+         &kp A  &kp S  &kp D  &kp F  &kp G    &kp H                 &kp J      &kp K      &kp L    &kp SEMI
+&kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N                 &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
+                       &mo 7  &mo 1  &mo 2    &mt LEFT_SHIFT SPACE  &kp LCTRL  &kp LALT
             >;
         };
 
         Navigation {
             bindings = <
-                   &kp C_VOLUME_UP  &kp ESC   &kp TAB       &kp ENTER  &kp BSPC     &trans  &trans  &trans  &trans  &trans
-                   &kp DEL          &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &trans  &kp A   &kp S   &kp N2  &trans
-&kp C_VOLUME_DOWN  &kp INS          &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
-                                              &trans        &mo 3      &trans       &trans  &trans  &trans
+         &kp TAB            &kp DEL   &kp BSPC      &kp ENTER  &kp INS      &trans  &trans  &trans  &trans  &trans
+         &kp C_VOL_UP       &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp C_VOLUME_DOWN  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans        &mo 3      &trans       &trans  &trans  &trans
             >;
 
             label = "nav";
@@ -233,6 +181,15 @@
         &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans  &trans  &trans  &trans  &trans
 &trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M     &kp N        &trans  &trans  &trans  &trans  &trans  &trans
                            &kp LBKT   &kp RBKT  &kp ENTER    &trans  &trans  &trans
+            >;
+        };
+
+        numpad {
+            bindings = <
+              &kp KP_DIVIDE    &kp KP_N7        &kp KP_N8        &kp KP_NUMBER_9  &kp KP_N0       &trans  &trans  &trans  &trans  &trans
+              &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT      &trans  &trans  &trans  &trans  &trans
+&kp KP_MINUS  &kp KP_PLUS      &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER    &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans           &kp KP_NUMLOCK   &kp LGUI        &trans  &trans  &trans
             >;
         };
     };
