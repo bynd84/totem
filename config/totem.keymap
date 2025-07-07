@@ -14,12 +14,15 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define BASE 0
-#define nav  1
-#define dg   2
-#define fk   3
-#define slow_mouse   4
-#define fast_mouse   5
+#define BASE   0
+#define nav    1
+#define fk     2
+#define wsad   3
+#define wsad2   4
+#define dg   5
+#define fmouse   6
+#define np    7
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
@@ -203,6 +206,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp KP_ENTER     &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_MINUS     &kp KP_PLUS
                         &trans  &trans  &trans    &trans           &trans           &trans
             >;
+           label = "np";
         };
     };
 
