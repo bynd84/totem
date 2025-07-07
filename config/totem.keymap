@@ -74,7 +74,7 @@
         mouse {
             bindings = <&tog 4>;
             key-positions = <27 29>;
-            layers = <0 4 3>;
+            layers = <0 3 7 6>;
         };
 
         qwerty_ent {
@@ -92,7 +92,7 @@
         numpad {
             bindings = <&tog 7>;
             key-positions = <30 19 26 15>;
-            layers = <0 3>;
+            layers = <0 3 7>;
         };
     };
 
