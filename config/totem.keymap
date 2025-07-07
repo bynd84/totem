@@ -76,6 +76,18 @@
             key-positions = <27 29>;
             layers = <0 4 3>;
         };
+
+        qwerty_ent {
+            bindings = <&kp ENTER>;
+            key-positions = <5 6>;
+            layers = <0>;
+        };
+
+        qwerty_bs {
+            bindings = <&kp BSPC>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -109,9 +121,9 @@
 
         Navigation {
             bindings = <
-         &kp TAB            &kp DEL   &kp BSPC      &kp ENTER  &kp INS      &trans  &trans  &trans  &trans  &trans
+         &kp TAB            &kp HOME  &kp DELETE    &kp END    &kp INS      &trans  &trans  &trans  &trans  &trans
          &kp C_VOL_UP       &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp C_VOLUME_DOWN  &kp HOME  &kp DOWN      &kp END    &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp C_VOLUME_DOWN  &kp BSPC  &kp DOWN      &kp ENTER  &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans        &mo 2      &trans       &trans  &trans  &trans
             >;
 
