@@ -76,7 +76,7 @@
         mouse {
             bindings = <&tog 6>;
             key-positions = <27 29>;
-            layers = <0 7 6>;
+            layers = <0 6>;
         };
 
         qwerty_ent {
