@@ -59,46 +59,10 @@
             layers = <0>;
         };
 
-        exclmrk {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <10 0>;
-            layers = <0>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <3 13>;
-            layers = <0>;
-        };
-
         wsad_toggle {
             bindings = <&tog 5>;
-            key-positions = <14 25>;
+            key-positions = <14 25 10 21>;
             layers = <0 5>;
-        };
-
-        wsad_f1 {
-            bindings = <&kp F1>;
-            key-positions = <1 2>;
-            layers = <5>;
-        };
-
-        wsad_f2 {
-            bindings = <&kp F2>;
-            key-positions = <2 3>;
-            layers = <5>;
-        };
-
-        wsad_f3 {
-            bindings = <&kp F3>;
-            key-positions = <3 4>;
-            layers = <5>;
-        };
-
-        wsad_f4 {
-            bindings = <&kp F4>;
-            key-positions = <4 14>;
-            layers = <5>;
         };
 
         wsad_fkeys {
@@ -211,10 +175,10 @@
 
         wsad {
             bindings = <
-              &kp TAB    &kp N1  &kp N2    &kp N3     &kp R    &trans  &trans  &trans  &trans  &trans
-              &kp LSHFT  &kp A   &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&lt 7 ESCAPE  &kp LCTRL  &kp Q   &kp S     &kp E      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                                 &kp LALT  &kp SPACE  &mo 6    &trans  &trans  &trans
+              &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
+              &kp LSHFT  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
+&lt 7 ESCAPE  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
+                                &kp LALT  &kp SPACE  &mo 6    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -225,7 +189,7 @@
             bindings = <
            &kp N0     &kp N7  &kp N8    &kp N9     &kp T     &trans  &trans  &trans  &trans  &trans
            &kp MINUS  &kp N4  &kp N5    &kp N6     &kp G     &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp EQUAL  &kp Z   &kp X     &kp C      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp EQUAL  &kp N1  &kp N2    &kp N3     &kp B     &trans  &trans  &trans  &trans  &trans  &trans
                               &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
             >;
         };
