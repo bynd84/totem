@@ -14,13 +14,16 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE   0
-#define nav    1
-#define fk     2
-#define wsad   3
-#define wsad2   4
-#define dg   5
-#define fmouse   6
-#define np    7
+#define wsad   1
+#define wsad2   2
+#define dg   3
+#define fk   4
+#define np    5
+#define nav    6
+#define nav    6
+#define sym    7
+#define nav    6
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
