@@ -173,7 +173,7 @@
         &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O            &kp Y                &kp B
         &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &hr_mod RCTRL E  &hr_mod RIGHT_ALT I  &kp C
 &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &kp Z
-                        &trans  &trans  &trans    &lt 9 SPACE  &mo 8                  &trans
+                        &trans  &trans  &trans    &lt 8 SPACE  &mo 9                  &trans
             >;
 
             label = "prom_right";
@@ -214,10 +214,10 @@
 
         nav {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp DEL            &kp BACKSPACE  &kp ENTER        &kp ESCAPE  &kp TAB
-        &trans  &trans  &trans  &trans  &trans    &kp PG_UP          &kp LEFT       &kp UP_ARROW     &kp RIGHT   &kp LEFT_GUI
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN      &kp HOME       &kp DOWN_ARROW   &kp END     &kp INS       &kp INS
-                        &trans  &trans  &trans    &kp C_VOLUME_DOWN  &trans         &kp C_VOLUME_UP
+        &trans  &trans  &trans  &trans  &trans    &kp DEL        &kp BACKSPACE      &kp ENTER        &kp ESCAPE  &kp TAB
+        &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LEFT           &kp UP_ARROW     &kp RIGHT   &kp LEFT_GUI
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME           &kp DOWN_ARROW   &kp END     &kp INS       &kp INS
+                        &trans  &trans  &trans    &trans         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
