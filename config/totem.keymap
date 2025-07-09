@@ -20,9 +20,9 @@
 #define fk   4
 #define np    5
 #define nav    6
-#define nav    6
 #define sym    7
-#define nav    6
+#define prom_left    8
+#define prom_left    9
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
