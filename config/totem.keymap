@@ -23,7 +23,6 @@
 #define nav    6
 #define sym    7
 #define nav    6
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
@@ -218,6 +217,8 @@
 &kp GRAVE  &kp V  &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
                                       &kp Q            &mo 3                 &kp R    &trans  &trans  &trans
             >;
+
+            label = "prom_left";
         };
 
         prom_right {
@@ -227,6 +228,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH  &kp EQUAL  &kp FSLH  &trans
                         &trans  &trans  &trans    &lt 7 SPACE  &mo 6                  &kp Z
             >;
+
+            label = "prom_right";
         };
     };
 
