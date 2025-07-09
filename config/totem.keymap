@@ -44,13 +44,13 @@
 
         qwerty_Ls_brt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <12 2>;
+            key-positions = <1 11>;
             layers = <0 8>;
         };
 
         qwerty_Rs_brt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <11 1>;
+            key-positions = <2 12>;
             layers = <0 8>;
         };
 
@@ -81,7 +81,7 @@
         prom_l {
             bindings = <&tog 8>;
             key-positions = <22 24>;
-            layers = <0 8>;
+            layers = <0 9>;
         };
 
         prom_r {
@@ -210,19 +210,19 @@
 
         prom_left {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp T   &kp S   &kp T   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+           &kp F  &kp P  &kp D  &kp I  &kp X    &trans  &trans  &trans  &trans  &trans
+           &kp S  &kp N  &kp T  &kp H  &kp K    &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp V  &kp W  &kp G  &kp M  &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp Q  &mo 3  &kp R    &trans  &trans  &trans
             >;
         };
 
         prom_right {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp S   &kp T   &kp S   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp SEMI   &kp U    &kp O     &kp Y      &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA  &kp A    &kp E     &kp I      &kp C
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp DOT  &kp BSLH  &kp EQUAL  &kp FSLH  &trans
+                        &trans  &trans  &trans    &trans     &trans   &kp Z
             >;
         };
     };
