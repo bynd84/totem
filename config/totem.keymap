@@ -214,9 +214,9 @@
 
         nav {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp DEL        &kp BACKSPACE  &kp ENTER       &kp ESCAPE  &kp INS
+        &trans  &trans  &trans  &trans  &trans    &kp DEL        &kp BACKSPACE  &kp ENTER       &kp ESCAPE  &kp TAB
         &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LEFT       &kp UP_ARROW    &kp RIGHT   &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME       &kp DOWN_ARROW  &kp END     &kp C_VOLUME_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME       &kp DOWN_ARROW  &kp END     &kp C_VOLUME_DOWN  &kp INS
                         &trans  &trans  &trans    &trans         &trans         &trans
             >;
         };
