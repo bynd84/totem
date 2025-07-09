@@ -212,10 +212,10 @@
 
         prom_left {
             bindings = <
-           &kp F  &kp P               &kp D            &kp I                 &kp X    &trans  &trans  &trans  &trans  &trans
-           &kp S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp V  &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-                                      &kp Q            &mo 3                 &kp R    &trans  &trans  &trans
+           &kp F               &kp P               &kp D            &kp I                 &kp X    &trans  &trans  &trans  &trans  &trans
+           &hr_mod LEFT_GUI S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp V               &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+                                                   &kp Q            &mo 3                 &kp R    &trans  &trans  &trans
             >;
 
             label = "prom_left";
@@ -223,9 +223,9 @@
 
         prom_right {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O     &kp Y      &kp B
-        &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &kp E     &kp I      &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH  &kp EQUAL  &kp FSLH  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O            &kp Y                &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &hr_mod RCTRL E  &hr_mod RIGHT_ALT I  &kp C
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &trans
                         &trans  &trans  &trans    &lt 7 SPACE  &mo 6                  &kp Z
             >;
 
