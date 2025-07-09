@@ -77,6 +77,18 @@
             key-positions = <26 30>;
             layers = <0 5>;
         };
+
+        prom_l {
+            bindings = <&tog 8>;
+            key-positions = <22 24>;
+            layers = <0 8>;
+        };
+
+        prom_r {
+            bindings = <&tog 9>;
+            key-positions = <27 29>;
+            layers = <0 8>;
+        };
     };
 
     behaviors {
@@ -194,6 +206,24 @@
             >;
 
             label = "sym";
+        };
+
+        prom_left {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp T   &kp S   &kp T   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        prom_right {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp S   &kp T   &kp S   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 
