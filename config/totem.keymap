@@ -63,7 +63,7 @@
         wsad_toggle {
             bindings = <&tog 1>;
             key-positions = <25 21>;
-            layers = <0 1>;
+            layers = <0 1 8>;
         };
 
         fkeys {
@@ -210,10 +210,10 @@
 
         prom_left {
             bindings = <
-           &kp F  &kp P  &kp D  &kp I  &kp X    &trans  &trans  &trans  &trans  &trans
-           &kp S  &kp N  &kp T  &kp H  &kp K    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp V  &kp W  &kp G  &kp M  &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp Q  &mo 3  &kp R    &trans  &trans  &trans
+           &kp F  &kp P               &kp D            &kp I                 &kp X    &trans  &trans  &trans  &trans  &trans
+           &kp S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp V  &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+                                      &kp Q            &mo 3                 &kp R    &trans  &trans  &trans
             >;
         };
 
