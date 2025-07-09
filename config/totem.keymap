@@ -56,12 +56,6 @@
             layers = <0 3>;
         };
 
-        qwerty_quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <13 3>;
-            layers = <0 3>;
-        };
-
         wsad_toggle {
             bindings = <&tog 1>;
             key-positions = <25 21>;
@@ -104,6 +98,17 @@
             quick-tap-ms = <0>;
             require-prior-idle-ms = <0>;
             flavor = "tap-preferred";
+        };
+
+        wasd_nums: wasd_nums {
+            compatible = "zmk,behavior-hold-tap";
+            label = "WASD_NUMS";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            quick-tap-ms = <0>;
+            tapping-term-ms = <70>;
+            require-prior-idle-ms = <0>;
         };
     };
 
