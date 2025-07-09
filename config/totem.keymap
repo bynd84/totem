@@ -219,10 +219,10 @@
 
         prom_right {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U    &kp O     &kp Y      &kp B
-        &trans  &trans  &trans  &trans  &trans    &kp COMMA    &kp A    &kp E     &kp I      &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT  &kp BSLH  &kp EQUAL  &kp FSLH  &trans
-                        &trans  &trans  &trans    &lt 7 SPACE  &mo 6    &kp Z
+        &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O     &kp Y      &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &kp E     &kp I      &kp C
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH  &kp EQUAL  &kp FSLH  &trans
+                        &trans  &trans  &trans    &lt 7 SPACE  &mo 6                  &kp Z
             >;
         };
     };
