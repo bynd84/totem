@@ -44,19 +44,19 @@
 
         qwerty_Ls_brt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <17 7>;
+            key-positions = <12 2>;
             layers = <0>;
         };
 
         qwerty_Rs_brt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <8 18>;
+            key-positions = <11 1>;
             layers = <0>;
         };
 
         qwerty_quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <6 16>;
+            key-positions = <13 3>;
             layers = <0>;
         };
 
@@ -70,18 +70,6 @@
             bindings = <&sl 4>;
             key-positions = <14 13>;
             layers = <1 0>;
-        };
-
-        qwerty_ent {
-            bindings = <&kp ENTER>;
-            key-positions = <5 6>;
-            layers = <0>;
-        };
-
-        qwerty_bs {
-            bindings = <&kp BSPC>;
-            key-positions = <15 16>;
-            layers = <0>;
         };
 
         numpad {
