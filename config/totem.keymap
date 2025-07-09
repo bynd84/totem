@@ -47,19 +47,19 @@
         qwerty_Ls_brt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <1 11>;
-            layers = <0 8>;
+            layers = <0 3>;
         };
 
         qwerty_Rs_brt {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <2 12>;
-            layers = <0 8>;
+            layers = <0 3>;
         };
 
         qwerty_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <13 3>;
-            layers = <0 8>;
+            layers = <0 3>;
         };
 
         wsad_toggle {
@@ -69,27 +69,27 @@
         };
 
         fkeys {
-            bindings = <&sl 4>;
+            bindings = <&sl 6>;
             key-positions = <14 13>;
-            layers = <1 0 8>;
+            layers = <1 0 3>;
         };
 
         numpad {
-            bindings = <&tog 5>;
+            bindings = <&tog 7>;
             key-positions = <26 30>;
-            layers = <0 5>;
+            layers = <0 7>;
         };
 
         prom_l {
-            bindings = <&tog 8>;
+            bindings = <&tog 3>;
             key-positions = <22 24>;
-            layers = <0 8>;
+            layers = <0 3>;
         };
 
         prom_r {
-            bindings = <&tog 9>;
+            bindings = <&tog 4>;
             key-positions = <27 29>;
-            layers = <0 9>;
+            layers = <0 4>;
         };
     };
 
@@ -132,7 +132,7 @@
            &kp Q               &kp W               &kp E            &kp R                 &kp T        &kp Y        &kp U                  &kp I            &kp O                &kp P
            &hr_mod LEFT_GUI A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &kp G        &kp H        &hr_mod RIGHT_SHIFT J  &hr_mod RCTRL K  &hr_mod RIGHT_ALT L  &kp SEMI
 &kp GRAVE  &kp Z               &kp X               &kp C            &kp V                 &kp B        &kp N        &kp M                  &kp COMMA        &kp DOT              &kp FSLH  &kp BSLH
-                                                   &none            &mo 3                 &kp SPACE    &lt 7 SPACE  &mo 6                  &none
+                                                   &none            &mo 5                 &kp SPACE    &lt 9 SPACE  &mo 8                  &none
             >;
         };
 
@@ -141,7 +141,7 @@
               &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
               &kp LSHFT  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
 &lt 2 ESCAPE  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp LALT  &kp SPACE  &mo 3    &trans  &trans  &trans
+                                &kp LALT  &kp SPACE  &mo 5    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -155,6 +155,28 @@
 &trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M     &kp N        &trans  &trans  &trans  &trans  &trans  &trans
                            &kp LBKT   &kp RBKT  &kp ENTER    &trans  &trans  &trans
             >;
+        };
+
+        prom_left {
+            bindings = <
+           &kp F               &kp P               &kp D            &kp I                 &kp X    &trans  &trans  &trans  &trans  &trans
+           &hr_mod LEFT_GUI S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp V               &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+                                                   &kp Q            &mo 5                 &kp R    &trans  &trans  &trans
+            >;
+
+            label = "prom_left";
+        };
+
+        prom_right {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O            &kp Y                &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &hr_mod RCTRL E  &hr_mod RIGHT_ALT I  &kp C
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &trans
+                        &trans  &trans  &trans    &lt 9 SPACE  &mo 8                  &kp Z
+            >;
+
+            label = "prom_right";
         };
 
         digits {
@@ -208,28 +230,6 @@
             >;
 
             label = "sym";
-        };
-
-        prom_left {
-            bindings = <
-           &kp F               &kp P               &kp D            &kp I                 &kp X    &trans  &trans  &trans  &trans  &trans
-           &hr_mod LEFT_GUI S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp V               &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-                                                   &kp Q            &mo 3                 &kp R    &trans  &trans  &trans
-            >;
-
-            label = "prom_left";
-        };
-
-        prom_right {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O            &kp Y                &kp B
-        &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &hr_mod RCTRL E  &hr_mod RIGHT_ALT I  &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &trans
-                        &trans  &trans  &trans    &lt 7 SPACE  &mo 6                  &kp Z
-            >;
-
-            label = "prom_right";
         };
     };
 
