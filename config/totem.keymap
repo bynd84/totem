@@ -45,19 +45,19 @@
         qwerty_Ls_brt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <12 2>;
-            layers = <0>;
+            layers = <0 8>;
         };
 
         qwerty_Rs_brt {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <11 1>;
-            layers = <0>;
+            layers = <0 8>;
         };
 
         qwerty_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <13 3>;
-            layers = <0>;
+            layers = <0 8>;
         };
 
         wsad_toggle {
@@ -69,7 +69,7 @@
         fkeys {
             bindings = <&sl 4>;
             key-positions = <14 13>;
-            layers = <1 0>;
+            layers = <1 0 8>;
         };
 
         numpad {
