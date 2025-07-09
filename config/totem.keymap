@@ -100,7 +100,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <400>;
             quick-tap-ms = <0>;
             require-prior-idle-ms = <0>;
             flavor = "tap-preferred";
@@ -159,10 +159,10 @@
 
         prom_left {
             bindings = <
-           &kp F               &kp P               &kp D            &kp L                 &kp X    &trans  &trans  &trans  &trans  &trans
-           &hr_mod LEFT_GUI S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp V               &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-                                                   &kp Q            &mo 5                 &kp R    &trans  &trans  &trans
+       &kp F               &kp P               &kp D            &kp L                 &kp X    &trans  &trans  &trans  &trans  &trans
+       &hr_mod LEFT_GUI S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
+&kp Q  &kp V               &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+                                               &trans           &mo 5                 &kp R    &trans  &trans  &trans
             >;
 
             label = "prom_left";
@@ -172,8 +172,8 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &kp SEMI     &kp U                  &kp O            &kp Y                &kp B
         &trans  &trans  &trans  &trans  &trans    &kp COMMA    &hr_mod RIGHT_SHIFT A  &hr_mod RCTRL E  &hr_mod RIGHT_ALT I  &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &trans
-                        &trans  &trans  &trans    &lt 9 SPACE  &mo 8                  &kp Z
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &kp Z
+                        &trans  &trans  &trans    &lt 9 SPACE  &mo 8                  &trans
             >;
 
             label = "prom_right";
