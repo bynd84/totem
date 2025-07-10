@@ -176,10 +176,10 @@
 
         prom_left {
             bindings = <
-       &kp F               &kp P               &kp D            &kp L                 &kp X    &trans  &trans  &trans  &trans  &trans
-       &hr_mod LEFT_GUI S  &hr_mod LEFT_ALT N  &hr_mod LCTRL T  &hr_mod LEFT_SHIFT H  &kp K    &trans  &trans  &trans  &trans  &trans
-&kp Q  &kp V               &kp W               &kp G            &kp M                 &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans           &hl_mod 5 SQT         &kp R    &trans  &trans  &trans
+       &kp F           &kp P           &kp D            &kp L            &kp X    &trans  &trans  &trans  &trans  &trans
+       &kp S           &kp N           &kp T            &kp H            &kp K    &trans  &trans  &trans  &trans  &trans
+&kp Q  &hr_mod LGUI V  &hr_mod LALT W  &hr_mod LCTRL G  &hr_mod LSHFT M  &kp J    &trans  &trans  &trans  &trans  &trans  &trans
+                                       &trans           &hl_mod 5 SQT    &kp R    &trans  &trans  &trans
             >;
 
             label = "prom_left";
