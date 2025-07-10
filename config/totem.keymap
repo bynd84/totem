@@ -140,19 +140,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y            &kp U      &kp I      &kp O    &kp P
-           &kp A  &kp S  &kp D  &kp F  &kp G        &kp H            &kp J      &kp K      &kp L    &kp SEMI
-&kp GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N            &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                         &none  &mo 5  &kp LSHFT    &hl_mod 8 SPACE  &kp LCTRL  &kp LALT
+           &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y        &kp U      &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D  &kp F  &kp G        &kp H        &kp J      &kp K      &kp L    &kp SEMI
+&kp GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N        &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
+                         &none  &mo 5  &kp LSHFT    &lt 8 SPACE  &kp LCTRL  &kp LALT
             >;
         };
 
         wsad {
             bindings = <
-                  &kp TAB    &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
-                  &kp LSHFT  &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
-&hl_mod 5 ESCAPE  &kp LCTRL  &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                    &kp LALT               &kp SPACE              &mo 2                    &trans  &trans  &trans
+              &kp TAB    &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
+              &kp LSHFT  &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
+&lt 5 ESCAPE  &kp LCTRL  &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
+                                                &kp LALT               &kp SPACE              &mo 2                    &trans  &trans  &trans
             >;
 
             label = "wsad";
