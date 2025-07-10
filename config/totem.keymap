@@ -85,6 +85,12 @@
             key-positions = <27 29>;
             layers = <0 4>;
         };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <3 13>;
+            layers = <0 3>;
+        };
     };
 
     behaviors {
@@ -146,10 +152,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q           &kp W           &kp E            &kp R            &kp T    &kp Y            &kp U            &kp I                &kp O                &kp P
-           &kp A           &kp S           &kp D            &kp F            &kp G    &kp H            &kp J            &kp K                &kp L                &kp SEMI
-&kp GRAVE  &hr_mod LGUI Z  &hr_mod LALT X  &hr_mod LCTRL C  &hr_mod LSHFT V  &kp B    &kp N            &hr_mod RSHFT M  &hr_mod RCTRL COMMA  &hr_mod RALT PERIOD  &kp FSLH  &kp BSLH
-                                           &none            &hl_mod 5 SQT    &none    &hl_mod 8 SPACE  &mo 9            &none
+           &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y            &kp U      &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D  &kp F  &kp G        &kp H            &kp J      &kp K      &kp L    &kp SEMI
+&kp GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N            &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
+                         &none  &mo 5  &kp LSHFT    &hl_mod 8 SPACE  &kp LCTRL  &kp LALT
             >;
         };
 
@@ -176,10 +182,10 @@
 
         prom_left {
             bindings = <
-       &kp F           &kp P           &kp D            &kp L            &kp X    &trans  &trans  &trans  &trans  &trans
-       &kp S           &kp N           &kp T            &kp H            &kp K    &trans  &trans  &trans  &trans  &trans
-&kp Q  &hr_mod LGUI V  &hr_mod LALT W  &hr_mod LCTRL G  &hr_mod LSHFT M  &kp J    &trans  &trans  &trans  &trans  &trans  &trans
-                                       &trans           &hl_mod 5 SQT    &kp R    &trans  &trans  &trans
+       &kp F           &kp P           &kp D            &kp L            &kp X        &trans  &trans  &trans  &trans  &trans
+       &kp S           &kp N           &kp T            &kp H            &kp K        &trans  &trans  &trans  &trans  &trans
+&kp Q  &hr_mod LGUI V  &hr_mod LALT W  &hr_mod LCTRL G  &hr_mod LSHFT M  &kp J        &trans  &trans  &trans  &trans  &trans  &trans
+                                       &kp GRAVE        &hl_mod 5 R      &kp LSHFT    &trans  &trans  &trans
             >;
 
             label = "prom_left";
@@ -187,10 +193,10 @@
 
         prom_right {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp SEMI         &kp U                    &kp O                    &kp Y                    &kp B
-        &trans  &trans  &trans  &trans  &trans    &kp COMMA        &kp A                    &kp E                    &kp I                    &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &hr_mod RIGHT_SHIFT DOT  &hr_mod RCTRL BACKSLASH  &hr_mod RIGHT_ALT EQUAL  &kp FSLH  &kp Z
-                        &trans  &trans  &trans    &hl_mod 8 SPACE  &mo 9                    &trans
+        &trans  &trans  &trans  &trans  &trans    &kp SEMI         &kp U      &kp O     &kp Y      &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA        &kp A      &kp E     &kp I      &kp C
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp DOT    &kp BSLH  &kp EQUAL  &kp FSLH  &kp Z
+                        &trans  &trans  &trans    &hl_mod 8 SPACE  &kp LCTRL  &kp LALT
             >;
 
             label = "prom_right";
@@ -236,17 +242,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME           &kp DOWN_ARROW   &kp END     &kp INS       &kp INS
                         &trans  &trans  &trans    &trans         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
-        };
-
-        sym {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp LS(N0)     &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans
-        &trans  &trans  &trans  &trans  &trans    &kp LS(MINUS)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(EQUAL)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &kp LS(GRAVE)
-                        &trans  &trans  &trans    &trans         &trans      &trans
-            >;
-
-            label = "sym";
         };
     };
 
