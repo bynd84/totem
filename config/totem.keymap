@@ -107,7 +107,7 @@
 
             #binding-cells = <2>;
             quick-tap-ms = <0>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <179>;
             require-prior-idle-ms = <0>;
         };
     };
