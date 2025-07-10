@@ -94,18 +94,6 @@
     };
 
     behaviors {
-        hr_mod: hr_mod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HR_MOD";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <0>;
-            require-prior-idle-ms = <0>;
-            flavor = "hold-preferred";
-        };
-
         wasd_nums: wasd_nums {
             compatible = "zmk,behavior-hold-tap";
             label = "WASD_NUMS";
@@ -182,10 +170,10 @@
 
         prom_left {
             bindings = <
-       &kp F           &kp P           &kp D            &kp L            &kp X        &trans  &trans  &trans  &trans  &trans
-       &kp S           &kp N           &kp T            &kp H            &kp K        &trans  &trans  &trans  &trans  &trans
-&kp Q  &hr_mod LGUI V  &hr_mod LALT W  &hr_mod LCTRL G  &hr_mod LSHFT M  &kp J        &trans  &trans  &trans  &trans  &trans  &trans
-                                       &kp GRAVE        &hl_mod 5 R      &kp LSHFT    &trans  &trans  &trans
+       &kp F  &kp P  &kp D      &kp L        &kp X        &trans  &trans  &trans  &trans  &trans
+       &kp S  &kp N  &kp T      &kp H        &kp K        &trans  &trans  &trans  &trans  &trans
+&kp Q  &none  &none  &none      &none        &kp J        &trans  &trans  &trans  &trans  &trans  &trans
+                     &kp GRAVE  &hl_mod 5 R  &kp LSHFT    &trans  &trans  &trans
             >;
 
             label = "prom_left";
