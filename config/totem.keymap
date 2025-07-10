@@ -59,7 +59,7 @@
         wsad_toggle {
             bindings = <&tog 1>;
             key-positions = <25 21>;
-            layers = <0 3 1>;
+            layers = <0 1>;
         };
 
         fkeys {
