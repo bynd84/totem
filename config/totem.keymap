@@ -146,7 +146,7 @@
               &kp TAB    &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
               &kp LSHFT  &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
 &lt 2 ESCAPE  &kp LCTRL  &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                &kp LALT               &kp SPACE              &mo 5                    &trans  &trans  &trans
+                                                &kp LALT               &kp SPACE              &mo 2                    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -155,10 +155,10 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-        &kp P     &kp O    &kp I      &kp U     &kp Y        &trans  &trans  &trans  &trans  &trans
-        &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans  &trans  &trans  &trans  &trans
-&trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M     &kp N        &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LBKT   &kp RBKT  &kp ENTER    &trans  &trans  &trans
+           &kp P     &kp O    &kp I      &kp U     &wasd_nums Y T    &trans  &trans  &trans  &trans  &trans
+           &kp SEMI  &kp L    &kp K      &kp J     &wasd_nums H G    &trans  &trans  &trans  &trans  &trans
+&kp ENTER  &kp FSLH  &kp DOT  &kp COMMA  &kp M     &wasd_nums N B    &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp LBKT   &kp RBKT  &trans            &trans  &trans  &trans
             >;
         };
 
