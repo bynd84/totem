@@ -155,10 +155,10 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-           &kp P     &wasd_nums O LEFT_BRACKET  &wasd_nums I RIGHT_BRACKET  &wasd_nums U SQT  &wasd_nums Y T    &trans  &trans  &trans  &trans  &trans
-           &kp SEMI  &kp L                      &kp K                       &kp J             &wasd_nums H G    &trans  &trans  &trans  &trans  &trans
-&kp ENTER  &kp FSLH  &kp DOT                    &kp COMMA                   &kp M             &wasd_nums N B    &trans  &trans  &trans  &trans  &trans  &trans
-                                                &kp LBKT                    &kp RBKT          &trans            &trans  &trans  &trans
+           &kp P     &kp O    &kp I      &wasd_nums U SQT  &wasd_nums Y T    &trans  &trans  &trans  &trans  &trans
+           &kp SEMI  &kp L    &kp K      &kp J             &wasd_nums H G    &trans  &trans  &trans  &trans  &trans
+&kp ENTER  &kp FSLH  &kp DOT  &kp COMMA  &kp M             &wasd_nums N B    &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp LBKT   &kp RBKT          &trans            &trans  &trans  &trans
             >;
         };
 
