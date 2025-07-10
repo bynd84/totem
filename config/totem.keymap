@@ -170,10 +170,10 @@
 
         prom_left {
             bindings = <
-       &kp F  &kp P  &kp D      &kp L        &kp X        &trans  &trans  &trans  &trans  &trans
-       &kp S  &kp N  &kp T      &kp H        &kp K        &trans  &trans  &trans  &trans  &trans
-&kp Q  &kp V  &kp W  &kp G      &kp M        &kp J        &trans  &trans  &trans  &trans  &trans  &trans
-                     &kp GRAVE  &hl_mod 5 R  &kp LSHFT    &trans  &trans  &trans
+           &kp F  &kp P  &kp D  &kp L        &kp X        &trans  &trans  &trans  &trans  &trans
+           &kp S  &kp N  &kp T  &kp H        &kp K        &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp V  &kp W  &kp G  &kp M        &kp J        &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp Q  &hl_mod 5 R  &kp LSHFT    &trans  &trans  &trans
             >;
 
             label = "prom_left";
@@ -183,7 +183,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &kp SEMI         &kp U      &kp O     &kp Y      &kp B
         &trans  &trans  &trans  &trans  &trans    &kp COMMA        &kp A      &kp E     &kp I      &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp DOT    &kp BSLH  &kp EQUAL  &kp FSLH  &kp Z
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp DOT    &kp Z     &kp EQUAL  &kp FSLH  &kp BSLH
                         &trans  &trans  &trans    &hl_mod 8 SPACE  &kp LCTRL  &kp LALT
             >;
 
