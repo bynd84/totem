@@ -187,10 +187,10 @@
 
         prom_right {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp SEMI         &kp U                  &kp O            &kp Y                &kp B
-        &trans  &trans  &trans  &trans  &trans    &kp COMMA        &hr_mod RIGHT_SHIFT A  &hr_mod RCTRL E  &hr_mod RIGHT_ALT I  &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp DOT                &kp BSLH         &kp EQUAL            &kp FSLH  &kp Z
-                        &trans  &trans  &trans    &hl_mod 8 SPACE  &mo 9                  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp SEMI         &kp U                    &kp O                    &kp Y                    &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA        &kp A                    &kp E                    &kp I                    &kp C
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &hr_mod RIGHT_SHIFT DOT  &hr_mod RCTRL BACKSLASH  &hr_mod RIGHT_ALT EQUAL  &kp FSLH  &kp Z
+                        &trans  &trans  &trans    &hl_mod 8 SPACE  &mo 9                    &trans
             >;
 
             label = "prom_right";
