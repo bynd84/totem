@@ -148,10 +148,10 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-        &trans  &kp O    &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans
-        &trans  &kp L    &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans     &trans  &trans    &trans  &trans  &trans
+        &kp CAPS  &kp O    &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans
+        &trans    &kp L    &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -188,10 +188,10 @@
 
         Fkeys {
             bindings = <
-          &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
-          &trans           &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
-&kp CAPS  &trans           &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &trans  &trans     &trans  &trans  &trans
+                &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
+                &trans           &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
+&kp SCROLLLOCK  &trans           &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans  &trans  &trans     &trans  &trans  &trans
             >;
 
             label = "fk";
