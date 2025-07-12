@@ -59,7 +59,7 @@
         numpad {
             bindings = <&tog 7>;
             key-positions = <26 30>;
-            layers = <0 7>;
+            layers = <0 7 9>;
         };
 
         left_nav {
@@ -77,7 +77,7 @@
         wsad_ld {
             bindings = <&tog 2>;
             key-positions = <0 4>;
-            layers = <1 2>;
+            layers = <1 2 0>;
         };
     };
 
