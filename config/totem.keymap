@@ -36,9 +36,8 @@
 
 &mt {
     quick-tap-ms = <0>;
-    global-quick-tap;
-    flavor = "hold-preferred";
-    tapping-term-ms = <200>;
+    flavor = "balanced";
+    tapping-term-ms = <250>;
 };
 
 / {
