@@ -15,11 +15,11 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE   0
-#define wsad   1
-#define wsad2   2
-#define wsad3    3
-#define wsad_nav    4
-#define dg   5
+#define wsad_letters   1
+#define wsad_ld   2
+#define wsad2    3
+#define wsad_digits    4
+#define wsad_nav   5
 #define fk   6
 #define np    7
 #define r_nav   8
