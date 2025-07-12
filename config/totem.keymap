@@ -145,10 +145,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q  &kp W        &kp E  &kp R      &kp T        &kp Y        &kp U     &kp I      &kp O          &kp P
-                    &kp A  &kp S        &kp D  &kp F      &kp G        &kp H        &kp J     &kp K      &kp L          &kp SEMI
-&mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C  &kp V      &kp B        &kp N        &kp M     &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                                        &none  &lt 5 SQT  &kp LSHFT    &lt 8 SPACE  &kp LBKT  &kp RBKT
+                    &kp Q  &kp W        &kp E     &kp R      &kp T        &kp Y      &kp U               &kp I      &kp O          &kp P
+                    &kp A  &kp S        &kp D     &kp F      &kp G        &kp H      &kp J               &kp K      &kp L          &kp SEMI
+&mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C     &kp V      &kp B        &kp N      &kp M               &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                                        &kp LGUI  &lt 5 SQT  &kp LSHFT    &kp SPACE  &lt 8 LEFT_BRACKET  &kp RBKT
             >;
         };
 
@@ -228,10 +228,10 @@
 
         r_nav {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp DEL        &kp BACKSPACE      &kp ENTER        &kp ESCAPE  &kp TAB
-        &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LEFT           &kp UP_ARROW     &kp RIGHT   &kp LEFT_GUI
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME           &kp DOWN_ARROW   &kp END     &kp INS       &kp INS
-                        &trans  &trans  &trans    &trans         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+        &trans  &trans  &trans  &trans  &trans    &kp DEL        &kp BACKSPACE  &kp ENTER       &kp ESCAPE  &kp TAB
+        &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LEFT       &kp UP_ARROW    &kp RIGHT   &kp INS
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME       &kp DOWN_ARROW  &kp END     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+                        &trans  &trans  &trans    &trans         &trans         &kp RGUI
             >;
 
             label = "r_nav";
