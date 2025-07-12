@@ -165,10 +165,10 @@
 
         wsad_letters {
             bindings = <
-         &kp TAB    &kp Q  &kp X     &kp E               &kp R        &trans  &trans  &trans  &trans  &trans
-         &kp LSHFT  &kp A  &kp W     &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp LCTRL  &kp Z  &kp S     &kp C               &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LALT  &layer_stlayer 4 3  &kp SPACE    &trans  &trans  &trans
+          &kp TAB    &kp Q  &kp X    &kp E               &kp R        &trans  &trans  &trans  &trans  &trans
+          &kp LSHFT  &kp A  &kp W    &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LALT  &kp LCTRL  &kp Z  &kp S    &kp C               &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                            &kp ESC  &layer_stlayer 4 3  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad_letters";
