@@ -44,18 +44,6 @@
     combos {
         compatible = "zmk,combos";
 
-        qwerty_Ls_brt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <1 11>;
-            layers = <0 3>;
-        };
-
-        qwerty_Rs_brt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <2 12>;
-            layers = <0 3>;
-        };
-
         wsad_toggle {
             bindings = <&tog 1>;
             key-positions = <25 21>;
@@ -63,33 +51,15 @@
         };
 
         fkeys {
-            bindings = <&sl 6>;
+            bindings = <&sl 4>;
             key-positions = <14 13>;
-            layers = <1 0 3>;
+            layers = <1 0>;
         };
 
         numpad {
-            bindings = <&tog 7>;
+            bindings = <&tog 5>;
             key-positions = <26 30>;
-            layers = <0 7 4>;
-        };
-
-        prom_l {
-            bindings = <&tog 3>;
-            key-positions = <22 24>;
-            layers = <0 3>;
-        };
-
-        prom_r {
-            bindings = <&tog 4>;
-            key-positions = <27 29>;
-            layers = <0 4>;
-        };
-
-        quote {
-            bindings = <&kp SQT>;
-            key-positions = <3 13>;
-            layers = <0 3>;
+            layers = <0 5>;
         };
     };
 
@@ -140,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q  &kp W        &kp E  &kp R  &kp T        &kp Y        &kp U     &kp I      &kp O          &kp P
-                    &kp A  &kp S        &kp D  &kp F  &kp G        &kp H        &kp J     &kp K      &kp L          &kp SEMI
-&mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C  &kp V  &kp B        &kp N        &kp M     &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                                        &none  &mo 5  &kp LSHFT    &lt 8 SPACE  &kp LBKT  &kp RBKT
+                    &kp Q  &kp W        &kp E  &kp R      &kp T        &kp Y        &kp U     &kp I      &kp O          &kp P
+                    &kp A  &kp S        &kp D  &kp F      &kp G        &kp H        &kp J     &kp K      &kp L          &kp SEMI
+&mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C  &kp V      &kp B        &kp N        &kp M     &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                                        &none  &lt 3 SQT  &kp LSHFT    &lt 6 SPACE  &kp LBKT  &kp RBKT
             >;
         };
 
@@ -151,7 +121,7 @@
             bindings = <
               &kp TAB    &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
               &kp LSHFT  &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
-&lt 5 ESCAPE  &kp LCTRL  &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
+&lt 3 ESCAPE  &kp LCTRL  &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
                                                 &kp LALT               &kp SPACE              &mo 2                    &trans  &trans  &trans
             >;
 
@@ -166,28 +136,6 @@
 &kp ENTER  &kp FSLH  &kp DOT  &kp COMMA  &kp M             &wasd_nums N B    &trans  &trans  &trans  &trans  &trans  &trans
                               &kp LBKT   &kp RBKT          &trans            &trans  &trans  &trans
             >;
-        };
-
-        prom_left {
-            bindings = <
-           &kp F  &kp P  &kp D  &kp L        &kp X        &trans  &trans  &trans  &trans  &trans
-           &kp S  &kp N  &kp T  &kp H        &kp K        &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp V  &kp W  &kp G  &kp M        &kp J        &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp Q  &hl_mod 5 R  &kp LSHFT    &trans  &trans  &trans
-            >;
-
-            label = "prom_left";
-        };
-
-        prom_right {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp SEMI         &kp U      &kp O     &kp Y      &kp B
-        &trans  &trans  &trans  &trans  &trans    &kp COMMA        &kp A      &kp E     &kp I      &kp C
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp DOT    &kp Z     &kp EQUAL  &kp FSLH  &kp BSLH
-                        &trans  &trans  &trans    &hl_mod 8 SPACE  &kp LCTRL  &kp LALT
-            >;
-
-            label = "prom_right";
         };
 
         digits {
