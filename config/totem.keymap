@@ -51,15 +51,15 @@
         };
 
         fkeys {
-            bindings = <&sl 4>;
+            bindings = <&sl 6>;
             key-positions = <14 13>;
             layers = <1 0>;
         };
 
         numpad {
-            bindings = <&tog 5>;
+            bindings = <&tog 7>;
             key-positions = <26 30>;
-            layers = <0 5>;
+            layers = <0 7>;
         };
     };
 
@@ -85,6 +85,17 @@
             quick-tap-ms = <0>;
             require-prior-idle-ms = <0>;
             flavor = "tap-preferred";
+        };
+
+        layer_stlayer: layer_stlayer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_STLAYER";
+            bindings = <&mo>, <&sl>;
+
+            #binding-cells = <2>;
+            quick-tap-ms = <0>;
+            tapping-term-ms = <250>;
+            require-prior-idle-ms = <0>;
         };
     };
 
@@ -113,16 +124,16 @@
                     &kp Q  &kp W        &kp E  &kp R      &kp T        &kp Y        &kp U     &kp I      &kp O          &kp P
                     &kp A  &kp S        &kp D  &kp F      &kp G        &kp H        &kp J     &kp K      &kp L          &kp SEMI
 &mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C  &kp V      &kp B        &kp N        &kp M     &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                                        &none  &lt 3 SQT  &kp LSHFT    &lt 6 SPACE  &kp LBKT  &kp RBKT
+                                        &none  &lt 5 SQT  &kp LSHFT    &lt 8 SPACE  &kp LBKT  &kp RBKT
             >;
         };
 
         wsad {
             bindings = <
-              &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
-              &kp LSHFT  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&lt 3 ESCAPE  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp LALT  &kp SPACE  &mo 2    &trans  &trans  &trans
+         &kp TAB    &kp Q  &kp X     &kp E      &kp R                 &trans  &trans  &trans  &trans  &trans
+         &kp LSHFT  &kp A  &kp W     &kp D      &kp F                 &trans  &trans  &trans  &trans  &trans
+&lt 5 A  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V                 &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LALT  &kp SPACE  &layer_stlayer 3 2    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -131,19 +142,39 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-           &kp P     &kp O    &kp I      &kp U     &kp Y     &trans  &trans  &trans  &trans  &trans
-           &kp SEMI  &kp L    &kp K      &kp J     &kp H     &trans  &trans  &trans  &trans  &trans
-&kp ENTER  &kp FSLH  &kp DOT  &kp COMMA  &kp M     &kp N     &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp LBKT   &kp RBKT  &trans    &trans  &trans  &trans
+        &trans     &kp O    &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp L    &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                            &kp LALT   &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        wsad3 {
+            label = "wsad3";
+            bindings = <
+        &trans     &kp P     &kp LBKT  &kp RBKT  &kp T     &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp SEMI  &kp APOS  &trans    &kp G     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp FSLH  &trans    &kp BSLH  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                             &kp LALT  &trans    &trans    &trans  &trans  &trans
+            >;
+        };
+
+        wsad_nav {
+            label = "wsad_nav";
+            bindings = <
+        &trans     &kp P     &kp LBKT  &kp RBKT  &kp T     &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp SEMI  &kp APOS  &trans    &kp G     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp FSLH  &trans    &kp BSLH  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                             &kp LALT  &trans    &trans    &trans  &trans  &trans
             >;
         };
 
         digits {
             bindings = <
-           &kp T  &kp N7  &kp N8    &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
-           &kp G  &kp N4  &kp N5    &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp B  &kp N1  &kp N2    &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
-                          &kp LGUI  &trans  &trans       &trans  &trans  &trans
+        &kp GRAVE  &kp N7  &kp N8    &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp N4  &kp N5    &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp N1  &kp N2    &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LALT  &trans  &trans       &trans  &trans  &trans
             >;
 
             label = "dg";
