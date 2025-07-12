@@ -62,10 +62,10 @@
             layers = <0 7 9>;
         };
 
-        left_nav {
-            bindings = <&tog 5>;
+        sticky_left_nav {
+            bindings = <&sl 5>;
             key-positions = <22 24>;
-            layers = <0 1 5 2>;
+            layers = <1 5 2>;
         };
 
         mouse {
@@ -78,6 +78,12 @@
             bindings = <&tog 2>;
             key-positions = <0 4>;
             layers = <1 2 0>;
+        };
+
+        toggle_left_nav {
+            bindings = <&tog 5>;
+            key-positions = <22 24 23>;
+            layers = <0 1 5 2>;
         };
     };
 
