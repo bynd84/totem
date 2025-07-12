@@ -233,6 +233,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME           &kp DOWN_ARROW   &kp END     &kp INS       &kp INS
                         &trans  &trans  &trans    &trans         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
+
+            label = "r_nav";
         };
 
         mouse {
