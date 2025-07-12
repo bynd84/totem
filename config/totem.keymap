@@ -17,8 +17,8 @@
 #define BASE   0
 #define wsad   1
 #define wsad2   2
-#define prom_left    3
-#define prom_right    4
+#define wsad3    3
+#define wsad_nav    4
 #define dg   5
 #define fk   6
 #define np    7
