@@ -163,7 +163,7 @@
          &kp TAB    &kp Q  &kp X     &kp E      &kp R                 &trans  &trans  &trans  &trans  &trans
          &kp LSHFT  &kp A  &kp W     &kp D      &kp F                 &trans  &trans  &trans  &trans  &trans
 &kp ESC  &kp LCTRL  &kp Z  &kp S     &kp C      &kp V                 &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LALT  &kp SPACE  &layer_stlayer 2 3    &trans  &trans  &trans
+                           &kp LALT  &kp SPACE  &layer_stlayer 4 3    &trans  &trans  &trans
             >;
 
             label = "wsad_letters";
@@ -175,7 +175,7 @@
          &kp TAB    &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
          &kp LSHFT  &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
 &kp ESC  &kp LCTRL  &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                           &kp LALT               &kp SPACE              &layer_stlayer 5 3       &trans  &trans  &trans
+                                           &kp LALT               &kp SPACE              &layer_stlayer 4 3       &trans  &trans  &trans
             >;
         };
 
