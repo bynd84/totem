@@ -76,7 +76,7 @@
         };
 
         wsad_ld {
-            bindings = <&tog 4>;
+            bindings = <&tog 2>;
             key-positions = <0 4>;
             layers = <1 2>;
         };
