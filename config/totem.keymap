@@ -162,10 +162,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q  &kp W        &kp E     &kp R  &kp T        &kp Y      &kp U   &kp I      &kp O          &kp P
-                    &kp A  &kp S        &kp D     &kp F  &kp G        &kp H      &kp J   &kp K      &kp L          &kp SEMI
-&mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C     &kp V  &kp B        &kp N      &kp M   &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                                        &kp LGUI  &mo 5  &kp LSHFT    &kp SPACE  &mo 10  &kp RSHFT
+                    &kp Q  &kp W        &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O          &kp P
+                    &kp A  &kp S        &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L          &kp SEMI
+&mt LEFT_ALT GRAVE  &kp Z  &mt LCTRL X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &mt RCTRL DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                                        &kp LGUI  &mo 5  &kp LSHFT    &kp SPACE  &mo 8  &kp RSHFT
             >;
         };
 
@@ -243,15 +243,14 @@
             label = "np";
         };
 
-        r_nav {
+        left_digs {
+            label = "left_digs";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp DEL        &kp BACKSPACE  &kp ENTER       &kp ESCAPE  &kp TAB
-        &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LEFT       &kp UP_ARROW    &kp RIGHT   &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp HOME       &kp DOWN_ARROW  &kp END     &kp C_VOLUME_DOWN  &kp INS
-                        &trans  &trans  &trans    &trans         &trans         &kp RGUI
+        &trans  &trans  &trans  &trans  &trans    &kp N7     &kp N8    &kp N9    &kp N0    &kp N6
+        &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp APOS  &kp LBKT  &kp RBKT  &kp N5
+&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp N1    &kp N2    &kp N3    &kp N4  &trans
+                        &trans  &trans  &trans    &trans     &trans    &trans
             >;
-
-            label = "r_nav";
         };
 
         mouse {
@@ -263,16 +262,6 @@
             >;
 
             label = "mouse";
-        };
-
-        left_digs {
-            label = "left_digs";
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp N7     &kp N8    &kp N9    &kp N0    &kp N6
-        &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp APOS  &kp LBKT  &kp RBKT  &kp N5
-&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp N1    &kp N2    &kp N3    &kp N4  &trans
-                        &trans  &trans  &trans    &trans     &trans    &trans
-            >;
         };
     };
 
