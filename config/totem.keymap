@@ -22,7 +22,7 @@
 #define wsad_nav   5
 #define fk   6
 #define np    7
-#define r_nav   8
+#define r_digs   8
 #define mouse    9
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
