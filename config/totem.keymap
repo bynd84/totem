@@ -71,7 +71,7 @@
         mouse {
             bindings = <&tog 9>;
             key-positions = <27 29>;
-            layers = <7 9 0>;
+            layers = <9 0>;
         };
 
         wsad_ld {
@@ -84,6 +84,12 @@
             bindings = <&tog 5>;
             key-positions = <2 3 1>;
             layers = <0 1 5 2>;
+        };
+
+        st_numpad {
+            bindings = <&sl 7>;
+            key-positions = <6 8>;
+            layers = <0 7>;
         };
     };
 
