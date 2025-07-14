@@ -24,6 +24,7 @@
 #define np    7
 #define r_digs   8
 #define mouse    9
+#define lmouse 10
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
