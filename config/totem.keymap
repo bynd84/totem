@@ -273,10 +273,10 @@
 
         lmouse {
             bindings = <
-        &trans  &trans             &trans             &trans             &trans            &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(-400)  &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp RCLK          &mmv MOVE_Y(-400)  &mkp MCLK          &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans             &trans             &mkp LCLK         &trans  &trans  &trans
+        &trans  &trans             &trans             &trans            &trans            &trans  &trans  &trans  &trans  &trans
+        &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(-400)  &mmv MOVE_X(400)  &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp RCLK          &mmv MOVE_Y(400)   &mkp MCLK         &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans             &trans            &mkp LCLK         &trans  &trans  &trans
             >;
 
             label = "lmouse";
