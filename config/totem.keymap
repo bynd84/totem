@@ -94,7 +94,7 @@
         };
 
         lmouse {
-            bindings = <&tog 3>;
+            bindings = <&tog 10>;
             key-positions = <22 23 24>;
             layers = <10 0 1 2>;
         };
