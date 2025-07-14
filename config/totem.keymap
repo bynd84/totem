@@ -278,8 +278,8 @@
         lmouse {
             bindings = <
         &trans  &trans             &trans             &trans            &trans            &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(-300)  &mmv MOVE_X(300)  &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp RCLK          &mmv MOVE_Y(300)   &mkp MCLK         &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp RCLK          &mmv MOVE_Y(200)   &mkp MCLK         &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
                                    &trans             &trans            &mkp LCLK         &trans  &trans  &trans
             >;
 
