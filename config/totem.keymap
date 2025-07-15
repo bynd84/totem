@@ -260,24 +260,13 @@
 
         mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans          &trans           &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MCLK       &mmv MOVE_DOWN  &mkp RCLK        &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mkp LCLK       &trans          &trans
+        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_RIGHT   &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_DOWN     &mkp RCLK         &kp C_VOL_DN     &trans
+                        &trans  &trans  &trans    &mkp LCLK       &mmv MOVE_Y(200)   &trans
             >;
 
             label = "mouse";
-        };
-
-        lmouse {
-            bindings = <
-        &trans  &trans             &trans             &trans            &trans            &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp RCLK          &mmv MOVE_Y(200)   &mkp MCLK         &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans             &trans            &mkp LCLK         &trans  &trans  &trans
-            >;
-
-            label = "lmouse";
         };
     };
 
