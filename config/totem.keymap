@@ -32,6 +32,11 @@
     acceleration-exponent = <2>;
 };
 
+&mmv2 {
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
+};
+
 &mt {
     quick-tap-ms = <0>;
     flavor = "tap-preferred";
@@ -266,8 +271,8 @@
             label = "mouse2";
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans             &trans            &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_X(-80)  &mmv MOVE_Y(-80)  &mmv MOVE_X(80)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &mmv MOVE_Y(80)   &trans            &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &mmv2 MOVE_X(-80)  &mmv2 MOVE_Y(-80)  &mmv2 MOVE_X(80)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &mmv2 MOVE_Y(80)   &trans            &trans  &trans
                         &trans  &trans  &trans    &trans  &trans             &trans
             >;
         };
