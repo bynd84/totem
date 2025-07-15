@@ -256,7 +256,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_RIGHT   &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_DOWN     &mkp RCLK         &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mkp MOVE_Y(1800)       &mmv LCLK   &mo 10
+                        &trans  &trans  &trans    &mmv MOVE_Y(1800)       &mkp LCLK   &mo 10
             >;
 
             label = "mouse";
