@@ -28,8 +28,8 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <200>;
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
 };
 
 &mt {
@@ -266,8 +266,8 @@
             label = "mouse2";
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans             &trans            &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &mmv2 MOVE_X(-80)  &mmv2 MOVE_Y(-80)  &mmv2 MOVE_X(80)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &mmv2 MOVE_Y(80)   &trans            &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_X(-80)  &mmv MOVE_Y(-80)  &mmv MOVE_X(80)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &mmv MOVE_Y(80)   &trans            &trans  &trans
                         &trans  &trans  &trans    &trans  &trans             &trans
             >;
         };
