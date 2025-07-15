@@ -56,7 +56,7 @@
 
         numpad {
             bindings = <&tog 7>;
-            key-positions = <6 7 8>;
+            key-positions = <5 9>;
             layers = <0 7 9>;
         };
 
@@ -68,7 +68,7 @@
 
         mouse {
             bindings = <&tog 9>;
-            key-positions = <27 29 28>;
+            key-positions = <26 30>;
             layers = <9 0>;
         };
 
@@ -253,10 +253,10 @@
 
         mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_RIGHT   &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_DOWN     &mkp RCLK         &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1800)       &mkp LCLK   &mo 10
+        &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1800)  &mmv MOVE_Y(-1800)  &mmv MOVE_X(1800)  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP       &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN     &mkp MCLK           &mmv MOVE_DOWN      &mkp RCLK          &kp C_VOL_DN     &trans
+                        &trans  &trans  &trans    &mmv MOVE_Y(1800)  &mkp LCLK           &mo 10
             >;
 
             label = "mouse";
@@ -265,10 +265,10 @@
         mouse2 {
             label = "mouse2";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans              &trans              &trans             &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans            &trans           &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_X(-80)  &mmv MOVE_Y(-80)  &mmv MOVE_X(80)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans              &mmv MOVE_Y(80)   &trans             &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &mmv MOVE_Y(80)   &trans           &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans            &trans
             >;
         };
     };
