@@ -24,11 +24,11 @@
 #define np    7
 #define r_digs   8
 #define mouse    9
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 700  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <150>;
+    time-to-max-speed-ms = <90>;
     acceleration-exponent = <2>;
 };
 
