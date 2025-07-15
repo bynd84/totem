@@ -32,11 +32,6 @@
     acceleration-exponent = <2>;
 };
 
-&mmv2 {
-    time-to-max-speed-ms = <0>;
-    acceleration-exponent = <0>;
-};
-
 &mt {
     quick-tap-ms = <0>;
     flavor = "tap-preferred";
