@@ -266,8 +266,8 @@
             label = "mouse2";
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans           &trans            &trans            &trans           &trans
-        &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-5)  &mmv MOVE_X(-70)  &mmv MOVE_Y(-70)  &mmv MOVE_X(70)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(5)   &trans            &mmv MOVE_Y(70)   &trans           &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(2)  &mmv MOVE_X(-70)  &mmv MOVE_Y(-70)  &mmv MOVE_X(70)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-2)   &trans            &mmv MOVE_Y(70)   &trans           &trans  &trans
                         &trans  &trans  &trans    &trans           &trans            &trans
             >;
         };
