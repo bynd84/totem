@@ -24,12 +24,12 @@
 #define np    7
 #define r_digs   8
 #define mouse    9
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 700  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <90>;
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
 };
 
 &mt {
@@ -253,10 +253,10 @@
 
         mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_X(-1900)  &mmv MOVE_Y(-1900)  &mmv MOVE_X(1900)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_RIGHT   &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_DOWN     &mkp RCLK         &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mkp LCLK       &mmv MOVE_Y(200)   &mo 10
+                        &trans  &trans  &trans    &mkp LCLK       &mmv MOVE_Y(1900)   &mo 10
             >;
 
             label = "mouse";
@@ -266,8 +266,8 @@
             label = "mouse2";
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans              &trans              &trans             &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_X(-1900)  &mmv MOVE_Y(-1900)  &mmv MOVE_X(1900)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans              &mmv MOVE_Y(1900)   &trans             &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_X(-80)  &mmv MOVE_Y(-80)  &mmv MOVE_X(80)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans              &mmv MOVE_Y(80)   &trans             &trans  &trans
                         &trans  &trans  &trans    &trans  &trans              &trans
             >;
         };
