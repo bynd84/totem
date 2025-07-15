@@ -24,12 +24,12 @@
 #define np    7
 #define r_digs   8
 #define mouse    9
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 900  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <0>;
-    acceleration-exponent = <0>;
+    time-to-max-speed-ms = <100>;
+    acceleration-exponent = <2>;
 };
 
 &mt {
@@ -253,10 +253,10 @@
 
         mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans            &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans            &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP      &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN    &mkp MCLK           &mmv MOVE_DOWN      &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(100)  &mkp LCLK           &trans
+                        &trans  &trans  &trans    &mmv MOVE_Y(50)  &mkp LCLK           &trans
             >;
 
             label = "mouse";
