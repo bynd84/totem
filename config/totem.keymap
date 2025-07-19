@@ -98,13 +98,13 @@
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <8 18>;
+            key-positions = <16 6>;
             layers = <0>;
         };
 
         esc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <6 16>;
+            key-positions = <8 18>;
             layers = <0>;
         };
     };
@@ -230,7 +230,7 @@
         wsad_nav {
             label = "wsad_nav";
             bindings = <
-          &kp TAB    &kp ESC         &kp ENTER     &kp BSPC         &kp DEL      &trans  &trans  &trans  &trans  &trans
+          &kp TAB    &kp ENTER       &kp BSPC      &kp ESC          &kp DEL      &trans  &trans  &trans  &trans  &trans
           &kp LSHFT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
 &kp LALT  &kp LCTRL  &kp HOME        &kp DOWN      &kp END          &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
                                      &trans        &mo 6            &kp INS      &trans  &trans  &trans
