@@ -97,7 +97,7 @@
         };
 
         esc {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp ESCAPE>;
             key-positions = <8 18>;
             layers = <0>;
         };
