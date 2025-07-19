@@ -101,6 +101,12 @@
             key-positions = <8 18>;
             layers = <0>;
         };
+
+        esc {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 16>;
+            layers = <0>;
+        };
     };
 
     behaviors {
