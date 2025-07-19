@@ -89,6 +89,12 @@
             key-positions = <6 8>;
             layers = <0 7>;
         };
+
+        bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <13 3>;
+            layers = <0>;
+        };
     };
 
     behaviors {
