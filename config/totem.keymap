@@ -92,7 +92,13 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <13 3>;
+            key-positions = <7 17>;
+            layers = <0>;
+        };
+
+        ent {
+            bindings = <&kp ENTER>;
+            key-positions = <8 18>;
             layers = <0>;
         };
     };
