@@ -48,12 +48,6 @@
             layers = <0 1 2>;
         };
 
-        fkeys {
-            bindings = <&sl 6>;
-            key-positions = <14 13>;
-            layers = <1 0 2>;
-        };
-
         numpad {
             bindings = <&tog 7>;
             key-positions = <5 9>;
@@ -62,7 +56,7 @@
 
         sticky_left_nav {
             bindings = <&sl 5>;
-            key-positions = <1 3>;
+            key-positions = <14 13>;
             layers = <1 5 2>;
         };
 
