@@ -256,10 +256,10 @@
         r_sym {
             label = "r_sym";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans     &kp LS(APOS)  &kp LS(LBKT)  &kp LS(RBKT)  &trans
-        &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp APOS      &kp LBKT      &kp RBKT      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp LS(N1)    &kp LS(N9)    &kp LS(N0)    &kp BSLH  &trans
-                        &trans  &trans  &trans    &trans     &trans        &trans
+        &trans  &trans  &trans  &trans  &trans    &kp EQUAL     &kp LS(APOS)  &kp LS(LBKT)  &kp LS(RBKT)  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp MINUS     &kp APOS      &kp LBKT      &kp RBKT      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(FSLH)  &kp LS(N1)    &kp LS(N9)    &kp LS(N0)    &kp BSLH  &trans
+                        &trans  &trans  &trans    &trans        &trans        &trans
             >;
         };
 
