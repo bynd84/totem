@@ -57,7 +57,7 @@
         sticky_left_nav {
             bindings = <&sl 5>;
             key-positions = <14 13>;
-            layers = <1 5 2>;
+            layers = <1 5 2 0>;
         };
 
         mouse {
