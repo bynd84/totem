@@ -267,8 +267,8 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp MCLK           &mmv MOVE_DOWN      &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1400)  &mkp LCLK           &mo 10
+&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
+                        &trans  &trans  &trans    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN      &mo 10
             >;
 
             label = "mouse";
