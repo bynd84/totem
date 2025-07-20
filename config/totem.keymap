@@ -25,7 +25,7 @@
 #define r_digs   8
 #define mouse    9
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 350  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 2    // default: 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
     time-to-max-speed-ms = <0>;
@@ -292,9 +292,9 @@
 
         mouse3 {
             bindings = <
-        &trans  &trans            &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_X(100)  &kp A      &kp A      &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &kp A      &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans            &trans                &trans              &trans       &trans  &trans  &trans  &trans  &trans
+        &trans  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)      &mmv MOVE_X(50)     &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &mmv MOVE_Y(50)       &trans              &trans       &trans  &trans  &trans  &trans  &trans  &trans
                                   &mkp RCLK  &mkp MCLK  &mkp LCLK    &trans  &trans  &trans
             >;
 
