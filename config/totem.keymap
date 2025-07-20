@@ -50,13 +50,13 @@
         numpad {
             bindings = <&tog 7>;
             key-positions = <5 9>;
-            layers = <0 7 8>;
+            layers = <0 7>;
         };
 
         sticky_left_nav {
             bindings = <&sl 5>;
             key-positions = <2 12>;
-            layers = <1 5 2 0>;
+            layers = <1 0>;
         };
 
         mouse {
@@ -68,7 +68,7 @@
         wsad_ld {
             bindings = <&tog 2>;
             key-positions = <0 4>;
-            layers = <1 2 0>;
+            layers = <1 2>;
         };
 
         toggle_left_nav {
