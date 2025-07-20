@@ -105,7 +105,7 @@
         mouse3 {
             bindings = <&tog 11>;
             key-positions = <10 14>;
-            layers = <0 1>;
+            layers = <0 11>;
         };
     };
 
@@ -292,10 +292,10 @@
 
         mouse3 {
             bindings = <
-        &trans  &trans            &trans                &trans              &trans       &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)      &mmv MOVE_X(50)     &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &mmv MOVE_Y(50)       &trans              &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                  &mkp RCLK  &mkp MCLK  &mkp LCLK    &trans  &trans  &trans
+        &trans  &trans            &trans            &trans           &trans       &trans  &trans  &trans  &trans  &trans
+        &trans  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &mmv MOVE_Y(50)   &trans           &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                  &mkp RCLK         &mkp MCLK        &mkp LCLK    &trans  &trans  &trans
             >;
 
             label = "mouse3";
