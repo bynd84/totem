@@ -62,7 +62,7 @@
 
         mouse {
             bindings = <&tog 9>;
-            key-positions = <26 30>;
+            key-positions = <15 19>;
             layers = <9 0>;
         };
 
@@ -100,6 +100,12 @@
             bindings = <&kp ESCAPE>;
             key-positions = <8 18>;
             layers = <0>;
+        };
+
+        mouse3 {
+            bindings = <&tog 11>;
+            key-positions = <10 14>;
+            layers = <0 1>;
         };
     };
 
