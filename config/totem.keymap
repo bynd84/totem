@@ -51,7 +51,7 @@
         numpad {
             bindings = <&tog 7>;
             key-positions = <5 9>;
-            layers = <0 7 9>;
+            layers = <0 7 8>;
         };
 
         sticky_left_nav {
@@ -61,9 +61,9 @@
         };
 
         mouse {
-            bindings = <&tog 9>;
+            bindings = <&tog 8>;
             key-positions = <15 19>;
-            layers = <9 0>;
+            layers = <8 0>;
         };
 
         wsad_ld {
@@ -103,9 +103,27 @@
         };
 
         mouse3 {
-            bindings = <&tog 11>;
+            bindings = <&tog 10>;
             key-positions = <10 14>;
-            layers = <0 11>;
+            layers = <0 10>;
+        };
+
+        br_l {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <28 17>;
+            layers = <0>;
+        };
+
+        br_r {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 29>;
+            layers = <0>;
+        };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <27 16>;
+            layers = <0>;
         };
     };
 
@@ -178,10 +196,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y      &kp U                &kp I      &kp O    &kp P
-          &kp A  &kp S  &kp D      &kp F  &kp G        &kp H      &kp J                &kp K      &kp L    &kp SEMI
-&kp LALT  &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N      &kp M                &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                        &kp LCTRL  &mo 4  &kp LSHFT    &kp SPACE  &kp_stlayer RCTRL 8  &kp RALT
+                &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D      &kp F  &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
+&mt LALT GRAVE  &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                              &kp LCTRL  &mo 4  &kp LSHFT    &kp SPACE  &kp RCTRL  &none
             >;
         };
 
@@ -218,10 +236,10 @@
 
         wsad_digits {
             bindings = <
-          &kp GRAVE        &kp N7  &kp N8    &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
-          &kp C_VOLUME_UP  &kp N4  &kp N5    &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
-&kp LGUI  &kp C_VOL_DN     &kp N1  &kp N2    &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &kp FSLH  &trans  &kp BSLH     &trans  &trans  &trans
+          &kp GRAVE        &kp N7  &kp N8  &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
+          &kp C_VOLUME_UP  &kp N4  &kp N5  &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
+&kp LGUI  &kp C_VOL_DN     &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans  &trans  &kp LSHFT    &trans  &trans  &trans
             >;
 
             label = "wsad_digits";
@@ -259,22 +277,12 @@
             label = "np";
         };
 
-        r_sym {
-            label = "r_sym";
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans        &kp LS(APOS)  &kp LS(LBKT)  &kp LS(RBKT)  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans        &kp APOS      &kp LBKT      &kp RBKT      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(FSLH)  &kp LS(N1)    &kp LS(N9)    &kp LS(N0)    &trans  &trans
-                        &trans  &trans  &trans    &trans        &trans        &trans
-            >;
-        };
-
         mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 10
+                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 9
             >;
 
             label = "mouse";
