@@ -24,7 +24,7 @@
 #define np    7
 #define r_digs   8
 #define mouse    9
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 400  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 2    // default: 10
 
 &mmv {
@@ -265,10 +265,10 @@
 
         mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1600)  &mmv MOVE_Y(-1600)  &mmv MOVE_X(1600)  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp MCLK           &mmv MOVE_DOWN      &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1600)  &mkp LCLK           &mo 10
+                        &trans  &trans  &trans    &mmv MOVE_Y(1400)  &mkp LCLK           &mo 10
             >;
 
             label = "mouse";
@@ -278,8 +278,8 @@
             label = "mouse2";
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans          &trans            &trans            &trans           &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-70)  &mmv MOVE_Y(-70)  &mmv MOVE_X(70)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &trans            &mmv MOVE_Y(70)   &trans           &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &trans            &mmv MOVE_Y(50)   &trans           &trans  &trans
                         &trans  &trans  &trans    &trans          &trans            &trans
             >;
         };
