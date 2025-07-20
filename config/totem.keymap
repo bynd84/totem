@@ -283,6 +283,17 @@
                         &trans  &trans  &trans    &trans          &trans            &trans
             >;
         };
+
+        mouse3 {
+            bindings = <
+        &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                        &mkp RCLK  &mkp MCLK  &mkp LCLK    &trans  &trans  &trans
+            >;
+
+            label = "mouse3";
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
