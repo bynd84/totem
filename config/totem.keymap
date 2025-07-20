@@ -118,6 +118,24 @@
             key-positions = <27 16>;
             layers = <0>;
         };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <5 6>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        exclimation {
+            bindings = <&kp LS(NUMBER_1)>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
     };
 
     behaviors {
