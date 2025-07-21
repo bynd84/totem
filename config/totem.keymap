@@ -150,8 +150,6 @@
             require-prior-idle-ms = <0>;
         };
 
-
-
         hl_mod: hl_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "HL_MOD";
@@ -320,6 +318,16 @@
             >;
 
             label = "mouse3";
+        };
+
+        l_symbs {
+            label = "l_symbs";
+            bindings = <
+        &kp LS(GRAVE)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)       &trans  &trans  &trans  &trans  &trans
+        &trans         &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(MINUS)    &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(EQUAL)    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans      &trans      &trans           &trans  &trans  &trans
+            >;
         };
     };
 
