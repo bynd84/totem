@@ -60,7 +60,7 @@
             layers = <9 0>;
         };
 
-        wsad_ld {
+        wsad_gamng {
             bindings = <&tog 2>;
             key-positions = <0 4>;
             layers = <1 2>;
