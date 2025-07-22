@@ -16,13 +16,14 @@
 
 #define BASE   0
 #define wsad_letters   1
-#define wsad_ld   2
+#define wsad_gaming   2
 #define wsad2    3
-#define wsad_digits    4
-#define wsad_nav   5
-#define fk   6
-#define np    7
-#define mouse    8
+#define wsad4    4
+#define wsad_digits    5
+#define wsad_nav   6
+#define fk   7
+#define np    8
+#define mouse    9
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
