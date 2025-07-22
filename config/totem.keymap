@@ -136,6 +136,18 @@
             key-positions = <26 27>;
             layers = <0>;
         };
+
+        l_brace {
+            bindings = <&kp LS(N9)>;
+            key-positions = <22 11>;
+            layers = <0 1 2>;
+        };
+
+        r_brace {
+            bindings = <&kp LS(N0)>;
+            key-positions = <23 12>;
+            layers = <0 1 2>;
+        };
     };
 
     behaviors {
