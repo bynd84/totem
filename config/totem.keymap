@@ -72,13 +72,13 @@
         toggle_left_nav {
             bindings = <&tog 6>;
             key-positions = <2 3 1>;
-            layers = <0 2 6 3>;
+            layers = <0 2 6 1>;
         };
 
         st_numpad {
             bindings = <&sl 8>;
             key-positions = <6 8>;
-            layers = <0 8>;
+            layers = <0>;
         };
 
         bs {
@@ -156,7 +156,7 @@
         st_nav {
             bindings = <&sl 6>;
             key-positions = <3 1>;
-            layers = <0 2 6 3>;
+            layers = <0 2 1>;
         };
     };
 
