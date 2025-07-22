@@ -46,7 +46,7 @@
         compatible = "zmk,combos";
 
         wsad_toggle {
-            bindings = <&tog 2>;
+            bindings = <&tog 1>;
             key-positions = <25 21>;
             layers = <0 2 3>;
         };
@@ -64,7 +64,7 @@
         };
 
         wsad_gamng {
-            bindings = <&tog 3>;
+            bindings = <&tog 2>;
             key-positions = <0 4>;
             layers = <2 3>;
         };
