@@ -23,7 +23,7 @@
 #define fk   6
 #define np    7
 #define mouse    8
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 350  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
 &mmv {
