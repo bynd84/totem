@@ -232,7 +232,7 @@
           &kp Q  &kp W  &kp E  &kp R                &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
           &kp A  &kp S  &kp D  &kp F                &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
 &kp LALT  &kp Z  &kp X  &kp C  &kp V                &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                        &mo 6  &layer_stlayer 5 12  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RALT
+                        &mo 5  &layer_stlayer 6 12  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RALT
             >;
         };
 
@@ -253,7 +253,7 @@
            &wasd_nums TAB ESC  &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
            &kp LALT            &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL           &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                      &layer_stlayer 7 4     &layer_stlayer 6 3     &kp SPACE                &trans  &trans  &trans
+                                                      &layer_stlayer 5 4     &layer_stlayer 6 3     &kp SPACE                &trans  &trans  &trans
             >;
         };
 
@@ -294,7 +294,7 @@
            &kp TAB    &kp ESC         &kp BSPC      &kp ENTER        &kp DEL      &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp HOME        &kp DOWN      &kp END          &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans        &mo 7            &kp INS      &trans  &trans  &trans
+                                      &mo 7         &mo 7            &kp INS      &trans  &trans  &trans
             >;
         };
 
