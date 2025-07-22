@@ -329,10 +329,10 @@
 
         mouse3 {
             bindings = <
-        &trans  &trans            &trans            &trans           &trans              &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &msc MOVE_Y(15)     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp RCLK         &mkp MCLK         &mkp LCLK        &msc MOVE_Y(-15)    &trans  &trans  &trans  &trans  &trans  &trans
-                                  &mkp RCLK         &mkp MCLK        &mkp LCLK           &trans  &trans  &trans
+        &trans  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &trans              &trans  &trans  &trans  &trans  &trans
+        &trans  &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_RIGHT   &msc MOVE_Y(15)     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp RCLK          &mkp MCLK          &mkp LCLK         &msc MOVE_Y(-15)    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &none              &mmv MOVE_DOWN    &mmv MOVE_Y(500)    &trans  &trans  &trans
             >;
 
             label = "mouse3";
