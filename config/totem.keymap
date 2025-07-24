@@ -49,7 +49,7 @@
         wsad_toggle {
             bindings = <&tog 1>;
             key-positions = <25 21>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         numpad {
