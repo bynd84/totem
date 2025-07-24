@@ -53,15 +53,15 @@
         };
 
         numpad {
-            bindings = <&tog 8>;
+            bindings = <&tog 9>;
             key-positions = <5 9>;
-            layers = <0 8>;
+            layers = <0 9>;
         };
 
         mouse {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <15 19>;
-            layers = <9 0>;
+            layers = <10 0>;
         };
 
         wsad_gamng {
@@ -71,13 +71,13 @@
         };
 
         toggle_left_nav {
-            bindings = <&tog 6>;
+            bindings = <&tog 7>;
             key-positions = <2 3 1>;
-            layers = <0 2 6 1>;
+            layers = <0 2 7 1>;
         };
 
         st_numpad {
-            bindings = <&sl 8>;
+            bindings = <&sl 9>;
             key-positions = <6 8>;
             layers = <0>;
         };
@@ -101,9 +101,9 @@
         };
 
         mouse3 {
-            bindings = <&tog 11>;
+            bindings = <&tog 12>;
             key-positions = <10 14>;
-            layers = <0 11>;
+            layers = <0 12>;
         };
 
         br_l {
@@ -145,25 +145,25 @@
         l_brace {
             bindings = <&kp LS(N9)>;
             key-positions = <22 11>;
-            layers = <0 2 3>;
+            layers = <0 2 4>;
         };
 
         r_brace {
             bindings = <&kp LS(N0)>;
             key-positions = <23 12>;
-            layers = <0 2 3>;
+            layers = <0 2 4>;
         };
 
         st_nav {
-            bindings = <&sl 6>;
+            bindings = <&sl 7>;
             key-positions = <3 1>;
             layers = <0 2 1>;
         };
 
         pfw {
-            bindings = <&tog 13>;
+            bindings = <&tog 3>;
             key-positions = <1 3 13>;
-            layers = <2 13>;
+            layers = <2 3>;
         };
     };
 
@@ -239,7 +239,7 @@
           &kp Q  &kp W  &kp E  &kp R                &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
           &kp A  &kp S  &kp D  &kp F                &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
 &kp LALT  &kp Z  &kp X  &kp C  &kp V                &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                        &mo 6  &layer_stlayer 5 12  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RALT
+                        &mo 7  &layer_stlayer 6 13  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RALT
             >;
         };
 
@@ -248,7 +248,7 @@
            &kp TAB    &kp Q  &kp X               &kp E               &kp R        &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp A  &kp W               &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Z  &kp S               &kp C               &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                             &layer_stlayer 6 4  &layer_stlayer 5 3  &kp SPACE    &trans  &trans  &trans
+                             &layer_stlayer 7 5  &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad_letters";
@@ -260,7 +260,17 @@
            &wasd_nums TAB ESC  &wasd_nums Q NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums E NUMBER_3  &wasd_nums R NUMBER_4    &trans  &trans  &trans  &trans  &trans
            &kp LALT            &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL           &wasd_nums Z N8        &kp S                  &wasd_nums C N7        &wasd_nums V NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                      &layer_stlayer 6 4     &layer_stlayer 5 3     &kp SPACE                &trans  &trans  &trans
+                                                      &layer_stlayer 7 5     &layer_stlayer 6 4     &kp SPACE                &trans  &trans  &trans
+            >;
+        };
+
+        pw {
+            label = "pw";
+            bindings = <
+           &wasd_nums TAB F3  &wasd_nums KP_NUMBER_1 NUMBER_1  &wasd_nums KP_NUMBER_2 NUMBER_2  &wasd_nums KP_NUMBER_3 NUMBER_3  &wasd_nums KP_NUMBER_4 NUMBER_4    &trans  &trans  &trans  &trans  &trans
+           &kp F4             &kp A                            &kp W                            &kp D                            &wasd_nums KP_NUMBER_5 N5          &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL          &wasd_nums Z F1                  &kp S                            &wasd_nums C F2                  &wasd_nums KP_NUMBER_7 NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
+                                                               &kp LALT                         &layer_stlayer 6 4               &kp SPACE                          &trans  &trans  &trans
             >;
         };
 
@@ -301,7 +311,7 @@
            &kp TAB    &kp ESC         &kp BSPC      &kp ENTER        &kp DEL      &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp HOME        &kp DOWN      &kp END          &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
-                                      &mo 7         &mo 7            &kp INS      &trans  &trans  &trans
+                                      &mo 8         &mo 8            &kp INS      &trans  &trans  &trans
             >;
         };
 
@@ -332,7 +342,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 10
+                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 11
             >;
 
             label = "mouse";
@@ -366,16 +376,6 @@
         &trans         &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(MINUS)    &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(EQUAL)    &trans  &trans  &trans  &trans  &trans  &trans
                                    &trans      &trans      &trans           &trans  &trans  &trans
-            >;
-        };
-
-        pw {
-            label = "pw";
-            bindings = <
-           &wasd_nums TAB F3  &wasd_nums KP_NUMBER_1 NUMBER_1  &wasd_nums KP_NUMBER_2 NUMBER_2  &wasd_nums KP_NUMBER_3 NUMBER_3  &wasd_nums KP_NUMBER_4 NUMBER_4    &trans  &trans  &trans  &trans  &trans
-           &kp F4             &kp A                            &kp W                            &kp D                            &wasd_nums KP_NUMBER_5 N5          &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL          &wasd_nums Z F1                  &kp S                            &wasd_nums C F2                  &wasd_nums KP_NUMBER_7 NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                               &kp LALT                         &layer_stlayer 5 3               &kp SPACE                          &trans  &trans  &trans
             >;
         };
     };
