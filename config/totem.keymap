@@ -83,7 +83,7 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <17 28>;
+            key-positions = <26 27>;
             layers = <0>;
         };
 
@@ -137,7 +137,7 @@
 
         exclimation {
             bindings = <&kp LS(NUMBER_1)>;
-            key-positions = <26 27>;
+            key-positions = <28 17>;
             layers = <0>;
         };
 
