@@ -83,19 +83,19 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <26 27>;
+            key-positions = <7 17>;
             layers = <0>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <16 27>;
+            key-positions = <16 6>;
             layers = <0>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <18 29>;
+            key-positions = <8 18>;
             layers = <0>;
         };
 
@@ -107,19 +107,19 @@
 
         br_l {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <17 7>;
+            key-positions = <28 17>;
             layers = <0>;
         };
 
         br_r {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <18 8>;
+            key-positions = <18 29>;
             layers = <0>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <16 6>;
+            key-positions = <27 16>;
             layers = <0>;
         };
 
@@ -137,7 +137,7 @@
 
         exclimation {
             bindings = <&kp LS(NUMBER_1)>;
-            key-positions = <28 17>;
+            key-positions = <26 27>;
             layers = <0>;
         };
 
@@ -291,9 +291,9 @@
         wsad_nav {
             label = "wsad_nav";
             bindings = <
-           &kp TAB    &kp HOME        &kp BSPC      &kp END          &kp DEL      &trans  &trans  &trans  &trans  &trans
+           &kp TAB    &kp ESC         &kp BSPC      &kp ENTER        &kp DEL      &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp ESC         &kp DOWN      &kp ENTER        &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp HOME        &kp DOWN      &kp END          &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
                                       &mo 7         &mo 7            &kp INS      &trans  &trans  &trans
             >;
         };
