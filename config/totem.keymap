@@ -83,19 +83,19 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <7 17>;
+            key-positions = <17 28>;
             layers = <0>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <16 6>;
+            key-positions = <16 27>;
             layers = <0>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <8 18>;
+            key-positions = <18 29>;
             layers = <0>;
         };
 
@@ -107,19 +107,19 @@
 
         br_l {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <28 17>;
+            key-positions = <17 7>;
             layers = <0>;
         };
 
         br_r {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <18 29>;
+            key-positions = <18 8>;
             layers = <0>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <27 16>;
+            key-positions = <16 6>;
             layers = <0>;
         };
 
