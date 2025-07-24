@@ -162,8 +162,8 @@
 
         pfw {
             bindings = <&tog 3>;
-            key-positions = <1 13 34>;
-            layers = <2 3>;
+            key-positions = <12 23 33>;
+            layers = <3 1>;
         };
     };
 
