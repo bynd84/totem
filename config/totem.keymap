@@ -308,10 +308,10 @@
         wsad_nav {
             label = "wsad_nav";
             bindings = <
-           &kp TAB    &kp ESC         &kp BSPC      &kp ENTER        &kp DEL      &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP    &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp HOME        &kp DOWN      &kp END          &kp PG_DN    &trans  &trans  &trans  &trans  &trans  &trans
-                                      &mo 8         &mo 8            &kp INS      &trans  &trans  &trans
+           &kp TAB    &kp HOME        &kp DEL       &kp END          &kp PG_UP        &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp ESC         &kp DOWN      &kp ENTER        &kp BSPC         &trans  &trans  &trans  &trans  &trans  &trans
+                                      &mo 8         &mo 8            &kp INS          &trans  &trans  &trans
             >;
         };
 
