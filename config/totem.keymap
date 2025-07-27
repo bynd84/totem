@@ -251,10 +251,10 @@
         wsad_gaming {
             label = "wsad_gaming";
             bindings = <
-           &wasd_nums TAB ESC  &wasd_nums Z NUMBER_1  &wasd_nums X NUMBER_2  &wasd_nums C NUMBER_3  &wasd_nums V NUMBER_4    &trans  &trans  &trans  &trans  &trans
-           &kp LALT            &kp A                  &kp W                  &kp D                  &wasd_nums F N5          &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL           &wasd_nums Q N8        &kp S                  &wasd_nums E N7        &wasd_nums R NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                      &layer_stlayer 7 5     &layer_stlayer 6 4     &kp SPACE                &trans  &trans  &trans
+           &kp TAB    &kp N1  &kp N2              &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp A   &kp W               &kp D               &kp N5       &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp N8  &kp S               &kp N7              &kp N6       &trans  &trans  &trans  &trans  &trans  &trans
+                              &layer_stlayer 7 5  &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
@@ -281,10 +281,10 @@
         wsad3 {
             label = "wsad3";
             bindings = <
-           &kp BSLH   &kp F1    &kp F2    &kp F3    &kp F4      &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp SEMI  &kp RBKT  &kp LBKT  &kp F5      &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp F8    &kp FSLH  &kp F7    &kp F6      &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp F9    &kp F10   &kp APOS    &trans  &trans  &trans
+           &kp BSLH   &kp Z     &kp X     &kp C     &kp V       &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp SEMI  &kp LBKT  &kp RBKT  &kp F       &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp Q     &kp FSLH  &kp E     &kp R       &trans  &trans  &trans  &trans  &trans  &trans
+                                &kp N9    &kp N0    &kp APOS    &trans  &trans  &trans
             >;
         };
 
