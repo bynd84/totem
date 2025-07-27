@@ -126,13 +126,13 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <36 18>;
+            key-positions = <18 35>;
             layers = <0>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <36 17>;
+            key-positions = <17 35>;
             layers = <0>;
         };
 
