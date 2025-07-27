@@ -261,10 +261,10 @@
         pw {
             label = "pw";
             bindings = <
-           &wasd_nums TAB F3  &wasd_nums KP_NUMBER_1 NUMBER_1  &wasd_nums KP_NUMBER_2 NUMBER_2  &wasd_nums KP_NUMBER_3 NUMBER_3  &wasd_nums KP_NUMBER_4 NUMBER_4    &trans  &trans  &trans  &trans  &trans
-           &kp F4             &kp A                            &kp W                            &kp D                            &wasd_nums KP_NUMBER_5 N5          &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL          &wasd_nums Z F1                  &kp S                            &wasd_nums C F2                  &wasd_nums KP_NUMBER_7 NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                                               &kp LALT                         &layer_stlayer 6 4               &kp SPACE                          &trans  &trans  &trans
+           &wasd_nums TAB F3  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3     &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans
+           &kp KP_NUMBER_7    &kp A            &kp W            &kp D               &kp KP_NUMBER_5    &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL          &kp Z            &kp S            &kp F2              &kp KP_NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
+                                               &kp LALT         &layer_stlayer 6 4  &kp SPACE          &trans  &trans  &trans
             >;
         };
 
