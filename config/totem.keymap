@@ -138,13 +138,13 @@
 
         l_brace {
             bindings = <&kp LS(N9)>;
-            key-positions = <7 36>;
+            key-positions = <7 35>;
             layers = <0>;
         };
 
         r_brace {
             bindings = <&kp LS(N0)>;
-            key-positions = <36 8>;
+            key-positions = <8 35>;
             layers = <0>;
         };
 
