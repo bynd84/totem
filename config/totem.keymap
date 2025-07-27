@@ -230,10 +230,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q  &kp W  &kp E  &kp R                &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
-          &kp A  &kp S  &kp D  &kp F                &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
-&kp LALT  &kp Z  &kp X  &kp C  &kp V                &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                        &mo 7  &layer_stlayer 6 13  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RALT
+          &kp Q  &kp W  &kp E  &kp R                &kp T        &kp Y      &kp U      &kp I        &kp O    &kp P
+          &kp A  &kp S  &kp D  &kp F                &kp G        &kp H      &kp J      &kp K        &kp L    &kp SEMI
+&kp LALT  &kp Z  &kp X  &kp C  &kp V                &kp B        &kp N      &kp M      &kp COMMA    &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                        &mo 7  &layer_stlayer 6 13  &kp LSHFT    &kp SPACE  &kp RCTRL  &key_repeat
             >;
         };
 
