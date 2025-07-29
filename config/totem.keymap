@@ -85,7 +85,7 @@
         bs {
             bindings = <&kp BACKSPACE>;
             key-positions = <29 18>;
-            layers = <0>;
+            layers = <0 9>;
         };
 
         ent {
