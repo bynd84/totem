@@ -18,7 +18,7 @@
 #define wsad   1
 #define wsad2    2
 #define wsad3    3
-#define wsad_digits    4
+#define qwerty_digits    4
 #define wsad_nav   5
 #define fk   6
 #define np    7
