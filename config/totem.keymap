@@ -283,8 +283,8 @@
             bindings = <
            &kp BSLH   &kp Z     &kp X     &kp C     &kp V       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp SEMI  &kp LBKT  &kp RBKT  &kp F       &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp N8    &kp FSLH  &kp N7    &kp R       &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp N9    &kp N0    &kp APOS    &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp N0    &kp FSLH  &kp N9    &kp R       &trans  &trans  &trans  &trans  &trans  &trans
+                                &kp N8    &kp N7    &kp APOS    &trans  &trans  &trans
             >;
         };
 
