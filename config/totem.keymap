@@ -77,7 +77,7 @@
         bs {
             bindings = <&kp BACKSPACE>;
             key-positions = <22 11>;
-            layers = <0 9>;
+            layers = <0>;
         };
 
         ent {
@@ -89,7 +89,7 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <11 1>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         mouse3 {
