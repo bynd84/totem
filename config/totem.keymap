@@ -53,31 +53,25 @@
         };
 
         numpad {
-            bindings = <&tog 9>;
+            bindings = <&tog 7>;
             key-positions = <5 9>;
-            layers = <0 9>;
+            layers = <0 7>;
         };
 
         mouse {
-            bindings = <&tog 10>;
+            bindings = <&tog 8>;
             key-positions = <15 19>;
-            layers = <10 0>;
-        };
-
-        wsad_gamng {
-            bindings = <&tog 2>;
-            key-positions = <0 4>;
-            layers = <2 1>;
+            layers = <8 0>;
         };
 
         toggle_left_nav {
-            bindings = <&tog 7>;
+            bindings = <&tog 5>;
             key-positions = <2 3 1>;
-            layers = <0 2 7 1>;
+            layers = <0 5 1>;
         };
 
         st_numpad {
-            bindings = <&sl 9>;
+            bindings = <&sl 7>;
             key-positions = <6 8>;
             layers = <0>;
         };
@@ -85,7 +79,7 @@
         bs {
             bindings = <&kp BACKSPACE>;
             key-positions = <29 18>;
-            layers = <0 9>;
+            layers = <0 7>;
         };
 
         ent {
@@ -101,9 +95,9 @@
         };
 
         mouse3 {
-            bindings = <&tog 12>;
+            bindings = <&tog 10>;
             key-positions = <10 14>;
-            layers = <0 12>;
+            layers = <0 10>;
         };
 
         br_l {
@@ -149,15 +143,9 @@
         };
 
         st_nav {
-            bindings = <&sl 7>;
+            bindings = <&sl 5>;
             key-positions = <3 1>;
-            layers = <0 2 1>;
-        };
-
-        pfw {
-            bindings = <&tog 3>;
-            key-positions = <12 23 33>;
-            layers = <3 1>;
+            layers = <0 1>;
         };
     };
 
@@ -233,39 +221,19 @@
                 &kp Q  &kp W  &kp E  &kp R                &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
                 &kp A  &kp S  &kp D  &kp F                &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
 &mt LALT GRAVE  &kp Z  &kp X  &kp C  &kp V                &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                              &mo 7  &layer_stlayer 6 13  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RSHFT
+                              &mo 5  &layer_stlayer 4 11  &kp LSHFT    &kp SPACE  &kp RCTRL  &kp RSHFT
             >;
         };
 
         wsad_letters {
             bindings = <
-           &kp TAB    &kp Z  &kp X               &kp C               &kp V        &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp A  &kp W               &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp Q  &kp S               &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                             &layer_stlayer 7 5  &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
-            >;
-
-            label = "wsad_letters";
-        };
-
-        wsad_gaming {
-            label = "wsad_gaming";
-            bindings = <
            &kp TAB    &kp N1  &kp N2              &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp A   &kp W               &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S               &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &layer_stlayer 7 8  &layer_stlayer 5 4  &kp SPACE    &trans  &trans  &trans
+                              &layer_stlayer 5 6  &layer_stlayer 3 2  &kp SPACE    &trans  &trans  &trans
             >;
-        };
 
-        pw {
-            label = "pw";
-            bindings = <
-           &kp TAB    &kp KP_N1  &kp KP_N2  &kp KP_N3           &kp KP_N4    &trans  &trans  &trans  &trans  &trans
-           &kp KP_N8  &kp A      &kp W      &kp D               &kp KP_N5    &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp F2     &kp S      &kp KP_N7           &kp KP_N6    &trans  &trans  &trans  &trans  &trans  &trans
-                                 &kp LALT   &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
-            >;
+            label = "wsad_letters";
         };
 
         wsad2 {
@@ -284,7 +252,7 @@
            &kp GRAVE  &kp N5  &kp N6    &kp N7     &kp N8       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp N9  &kp N0    &kp MINUS  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Z   &kp X     &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp SEMI  &kp N7     &kp APOS     &trans  &trans  &trans
+                              &kp SEMI  &trans     &kp APOS     &trans  &trans  &trans
             >;
         };
 
@@ -305,16 +273,16 @@
            &kp TAB    &kp HOME        &kp DEL       &kp END          &kp PG_UP        &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp ESC         &kp DOWN      &kp ENTER        &kp BSPC         &trans  &trans  &trans  &trans  &trans  &trans
-                                      &mo 8         &mo 8            &kp INS          &trans  &trans  &trans
+                                      &mo 6         &mo 6            &kp INS          &trans  &trans  &trans
             >;
         };
 
         Fkeys {
             bindings = <
-        &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+        &trans  &kp F7  &kp F8  &kp F9    &kp F10     &trans  &trans  &trans  &trans  &trans
+        &trans  &kp F4  &kp F5  &kp F6    &kp F11     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3    &kp F12     &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &kp LBKT  &kp RBKT    &trans  &trans  &trans
             >;
 
             label = "fk";
@@ -336,7 +304,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 11
+                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 9
             >;
 
             label = "mouse";
