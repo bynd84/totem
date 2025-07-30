@@ -100,13 +100,13 @@
 
         br_l {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <7 17>;
+            key-positions = <17 35>;
             layers = <0>;
         };
 
         br_r {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <18 8>;
+            key-positions = <18 35>;
             layers = <0>;
         };
 
@@ -118,13 +118,13 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <18 35>;
+            key-positions = <18 8>;
             layers = <0>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <17 35>;
+            key-positions = <17 7>;
             layers = <0>;
         };
 
