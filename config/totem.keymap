@@ -95,7 +95,7 @@
         mouse3 {
             bindings = <&tog 10>;
             key-positions = <10 14>;
-            layers = <0 10>;
+            layers = <0 10 1>;
         };
 
         br_l {
@@ -142,7 +142,7 @@
 
         st_nav {
             bindings = <&sl 5>;
-            key-positions = <3 1>;
+            key-positions = <2 12>;
             layers = <0 1>;
         };
     };
@@ -228,7 +228,7 @@
            &kp TAB    &kp N1  &kp N2              &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp A   &kp W               &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S               &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &layer_stlayer 5 6  &layer_stlayer 3 2  &kp SPACE    &trans  &trans  &trans
+                              &layer_stlayer 4 6  &layer_stlayer 3 2  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -247,10 +247,10 @@
         wsad3 {
             label = "wsad3";
             bindings = <
-           &kp GRAVE  &kp N5  &kp N6    &kp N7     &kp N8       &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp N9  &kp N0    &kp MINUS  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp Z   &kp X     &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp SEMI  &trans     &kp APOS     &trans  &trans  &trans
+           &kp GRAVE  &kp N5  &kp N6    &kp N7    &kp N8      &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp N9  &kp N0    &kp LBKT  &kp RBKT    &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp Z   &kp X     &kp C     &kp V       &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp SEMI  &trans    &kp APOS    &trans  &trans  &trans
             >;
         };
 
