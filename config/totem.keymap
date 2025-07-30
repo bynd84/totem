@@ -51,9 +51,9 @@
         };
 
         numpad {
-            bindings = <&tog 9>;
+            bindings = <&tog 8>;
             key-positions = <5 9>;
-            layers = <0 9>;
+            layers = <0 8>;
         };
 
         mouse {
@@ -69,7 +69,7 @@
         };
 
         st_numpad {
-            bindings = <&sl 9>;
+            bindings = <&sl 8>;
             key-positions = <6 8>;
             layers = <0>;
         };
