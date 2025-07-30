@@ -15,19 +15,17 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE   0
-#define wsad_letters   1
-#define wsad_gaming   2
-#define pw    3
-#define wsad2    4
-#define wsad3    5
-#define wsad_digits    6
-#define wsad_nav   7
-#define fk   8
-#define np    9
-#define mouse    10
-#define mouse2    11
-#define mouse3    12
-#define l_symbs    13
+#define wsad   1
+#define wsad2    2
+#define wsad3    3
+#define wsad_digits    4
+#define wsad_nav   5
+#define fk   6
+#define np    7
+#define mouse    8
+#define mouse2    9
+#define mouse3    10
+#define l_symbs    11
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
@@ -233,7 +231,7 @@
                               &layer_stlayer 5 6  &layer_stlayer 3 2  &kp SPACE    &trans  &trans  &trans
             >;
 
-            label = "wsad_letters";
+            label = "wsad";
         };
 
         wsad2 {
