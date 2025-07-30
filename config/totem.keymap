@@ -145,6 +145,12 @@
             key-positions = <2 12>;
             layers = <0 1>;
         };
+
+        st_fkeys {
+            bindings = <&sl 7>;
+            key-positions = <14 13>;
+            layers = <0 1>;
+        };
     };
 
     behaviors {
