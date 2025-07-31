@@ -76,13 +76,13 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <1 11>;
+            key-positions = <2 12>;
             layers = <0>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <23 12>;
+            key-positions = <24 13>;
             layers = <0>;
         };
 
