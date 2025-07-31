@@ -263,7 +263,7 @@
         wsad4 {
             bindings = <
         &kp LGUI           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp CLCK    &trans  &trans  &trans  &trans  &trans
-        &kp C_VOLUME_UP    &kp APOS         &kp LBKT        &kp RBKT         &trans      &trans  &trans  &trans  &trans  &trans
+        &kp C_VOLUME_UP    &kp APOS         &kp LBKT        &kp RBKT         &kp RGUI    &trans  &trans  &trans  &trans  &trans
 &trans  &kp C_VOLUME_DOWN  &kp FSLH         &kp BSLH        &kp SEMI         &trans      &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans          &trans           &trans      &trans  &trans  &trans
             >;
