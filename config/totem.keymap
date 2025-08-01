@@ -45,99 +45,99 @@
         compatible = "zmk,combos";
 
         wsad_toggle {
-            bindings = <&tog 1>;
+            bindings = <&tog 2>;
             key-positions = <25 21>;
-            layers = <0 1>;
+            layers = <0 2 1>;
         };
 
         numpad {
-            bindings = <&tog 8>;
+            bindings = <&tog 9>;
             key-positions = <6 8 7>;
-            layers = <0 8>;
+            layers = <0 9 1>;
         };
 
         mouse {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <15 19>;
-            layers = <9 0>;
+            layers = <10 0 1>;
         };
 
         toggle_left_nav {
-            bindings = <&tog 6>;
+            bindings = <&tog 7>;
             key-positions = <2 3 1>;
-            layers = <0 6 1>;
+            layers = <0 7 2 1>;
         };
 
         st_numpad {
-            bindings = <&sl 8>;
+            bindings = <&sl 9>;
             key-positions = <6 8>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         mouse3 {
-            bindings = <&tog 11>;
+            bindings = <&tog 12>;
             key-positions = <10 14>;
-            layers = <0 11 1>;
+            layers = <0 12 2 1>;
         };
 
         br_l {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 28>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         br_r {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <18 29>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 18>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         st_nav {
-            bindings = <&sl 6>;
+            bindings = <&sl 7>;
             key-positions = <1 3>;
-            layers = <0 1>;
+            layers = <0 2 1>;
         };
 
         st_fkeys {
-            bindings = <&sl 7>;
+            bindings = <&sl 8>;
             key-positions = <13 14>;
-            layers = <0 1>;
+            layers = <0 2 1>;
         };
 
         shift1 {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <27 16>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift2 {
             bindings = <&kp LS(NUMBER_2)>;
             key-positions = <1 11>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift3 {
             bindings = <&kp LS(NUMBER_3)>;
             key-positions = <2 12>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift4 {
             bindings = <&kp LS(NUMBER_4)>;
             key-positions = <3 13>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift5 {
             bindings = <&kp LS(N5)>;
             key-positions = <4 14>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift6 {
@@ -149,37 +149,49 @@
         shift7 {
             bindings = <&kp LS(N7)>;
             key-positions = <6 16>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift8 {
             bindings = <&kp LS(N8)>;
             key-positions = <7 17>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift9 {
             bindings = <&kp LS(N9)>;
             key-positions = <22 11>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         shift0 {
             bindings = <&kp LS(N0)>;
             key-positions = <12 23>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <13 24>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <14 25>;
-            layers = <0>;
+            layers = <0 1>;
+        };
+
+        beakl_l {
+            bindings = <&tog 1>;
+            key-positions = <20 34>;
+            layers = <0 2 1>;
+        };
+
+        beakl_r {
+            bindings = <&tog 1>;
+            key-positions = <35 31>;
+            layers = <0 2 1>;
         };
     };
 
@@ -252,11 +264,22 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E  &kp R     &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
-                &kp A  &kp S  &kp D  &kp F     &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
-&mt LALT GRAVE  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                              &mo 6  &kp BSPC  &kp LSHFT    &kp SPACE  &kp LCTRL  &mo 5
+                &kp Q  &kp W  &kp E  &kp R            &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D  &kp F            &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
+&mt LALT GRAVE  &kp Z  &kp X  &kp C  &kp V            &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                              &none  &lt 7 BACKSPACE  &kp LSHFT    &kp SPACE  &kp LCTRL  &mo 6
             >;
+        };
+
+        beakl {
+            bindings = <
+                &kp Q  &kp Y     &kp O     &kp U            &kp Z        &kp W      &kp D      &kp N  &kp C  &kp K
+                &kp H  &kp I     &kp E     &kp A            &kp COMMA    &kp G      &kp T      &kp R  &kp S  &kp P
+&mt LALT GRAVE  &kp J  &kp SEMI  &kp FSLH  &kp DOT          &kp X        &kp V      &kp M      &kp L  &kp F  &kp B  &mt RALT BACKSLASH
+                                 &trans    &lt 7 BACKSPACE  &kp LSHFT    &kp SPACE  &kp RCTRL  &mo 6
+            >;
+
+            label = "beakl";
         };
 
         wsad {
@@ -264,7 +287,7 @@
            &kp TAB    &kp N1  &kp N2              &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp A   &kp W               &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S               &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &layer_stlayer 6 4  &layer_stlayer 3 2  &kp SPACE    &trans  &trans  &trans
+                              &layer_stlayer 7 5  &layer_stlayer 4 3  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -318,7 +341,7 @@
            &kp TAB    &kp HOME        &kp BSPC      &kp END          &kp PG_UP        &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp ESC         &kp DOWN      &kp ENTER        &kp DEL          &trans  &trans  &trans  &trans  &trans  &trans
-                                      &mo 8         &mo 8            &kp INS          &trans  &trans  &trans
+                                      &mo 9         &mo 9            &kp INS          &trans  &trans  &trans
             >;
         };
 
@@ -349,7 +372,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 10
+                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 11
             >;
 
             label = "mouse";
