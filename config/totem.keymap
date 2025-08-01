@@ -74,24 +74,6 @@
             layers = <0>;
         };
 
-        bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <2 12>;
-            layers = <0>;
-        };
-
-        ent {
-            bindings = <&kp ENTER>;
-            key-positions = <24 13>;
-            layers = <0>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <11 22>;
-            layers = <0 1>;
-        };
-
         mouse3 {
             bindings = <&tog 11>;
             key-positions = <10 14>;
@@ -100,43 +82,19 @@
 
         br_l {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <17 35>;
+            key-positions = <17 28>;
             layers = <0>;
         };
 
         br_r {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <18 35>;
+            key-positions = <18 29>;
             layers = <0>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <29 18>;
-            layers = <0>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <18 8>;
-            layers = <0>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <17 7>;
-            layers = <0>;
-        };
-
-        l_brace {
-            bindings = <&kp LS(N9)>;
-            key-positions = <7 35>;
-            layers = <0>;
-        };
-
-        r_brace {
-            bindings = <&kp LS(N0)>;
-            key-positions = <8 35>;
+            key-positions = <27 16>;
             layers = <0>;
         };
 
@@ -150,6 +108,84 @@
             bindings = <&sl 7>;
             key-positions = <14 13>;
             layers = <0 1>;
+        };
+
+        shift1 {
+            bindings = <&kp LS(NUMBER_1)>;
+            key-positions = <11 1>;
+            layers = <0>;
+        };
+
+        shift2 {
+            bindings = <&kp LS(NUMBER_2)>;
+            key-positions = <2 12>;
+            layers = <0>;
+        };
+
+        shift3 {
+            bindings = <&kp LS(NUMBER_3)>;
+            key-positions = <3 13>;
+            layers = <0>;
+        };
+
+        shift4 {
+            bindings = <&kp LS(NUMBER_4)>;
+            key-positions = <4 14>;
+            layers = <0>;
+        };
+
+        shift5 {
+            bindings = <&kp LS(N5)>;
+            key-positions = <5 15>;
+            layers = <0>;
+        };
+
+        shift6 {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <6 16>;
+            layers = <0>;
+        };
+
+        shift7 {
+            bindings = <&kp LS(N7)>;
+            key-positions = <7 17>;
+            layers = <0>;
+        };
+
+        shift8 {
+            bindings = <&kp LS(N8)>;
+            key-positions = <8 18>;
+            layers = <0>;
+        };
+
+        shift9 {
+            bindings = <&kp LS(N9)>;
+            key-positions = <22 11>;
+            layers = <0>;
+        };
+
+        shift0 {
+            bindings = <&kp LS(N0)>;
+            key-positions = <12 23>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <13 24>;
+            layers = <0>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <14 25>;
+            layers = <0>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 10>;
+            layers = <0>;
         };
     };
 
