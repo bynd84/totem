@@ -106,7 +106,7 @@
 
         st_fkeys {
             bindings = <&sl 7>;
-            key-positions = <14 13>;
+            key-positions = <3 4>;
             layers = <0 1>;
         };
 
@@ -187,6 +187,18 @@
             key-positions = <0 10>;
             layers = <0>;
         };
+
+        l_ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        r_ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -258,10 +270,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P
-                &kp A  &kp S  &kp D      &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI
-&mt LALT GRAVE  &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                              &kp LCTRL  &mo 6  &kp LSHFT    &kp SPACE  &mo 5  &kp RCTRL
+                &kp Q  &kp W  &kp E  &kp R     &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D  &kp F     &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI
+&mt LALT GRAVE  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                              &mo 6  &kp BSPC  &kp LSHFT    &kp SPACE  &mo 5  &kp RCTRL
             >;
         };
 
