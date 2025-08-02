@@ -96,7 +96,7 @@
         quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 18>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
         st_nav {
@@ -194,6 +194,12 @@
             key-positions = <35 31>;
             layers = <0 2 1>;
         };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <8 18>;
+            layers = <1>;
+        };
     };
 
     behaviors {
@@ -274,10 +280,10 @@
 
         beakl {
             bindings = <
-                &kp Q  &kp Y     &kp O     &kp U            &kp Z        &kp W      &kp D      &kp N  &kp C  &kp K
-                &kp H  &kp I     &kp E     &kp A            &kp COMMA    &kp G      &kp T      &kp R  &kp S  &kp P
-&mt LALT GRAVE  &kp J  &kp SEMI  &kp FSLH  &kp DOT          &kp X        &kp V      &kp M      &kp L  &kp F  &kp B  &mt RALT BACKSLASH
-                                 &trans    &lt 7 BACKSPACE  &kp LSHFT    &kp SPACE  &kp RCTRL  &mo 6
+                &kp Q  &kp Y             &kp O     &kp U            &kp Z        &kp W      &kp D      &kp N  &kp C  &kp K
+                &kp H  &kp I             &kp E     &kp A            &kp COMMA    &kp G      &kp T      &kp R  &kp S  &kp P
+&mt LALT GRAVE  &kp J  &kp SINGLE_QUOTE  &kp FSLH  &kp DOT          &kp X        &kp V      &kp M      &kp L  &kp F  &kp B  &mt RALT BACKSLASH
+                                         &trans    &lt 7 BACKSPACE  &kp LSHFT    &kp SPACE  &kp RCTRL  &mo 6
             >;
 
             label = "beakl";
