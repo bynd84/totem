@@ -417,6 +417,17 @@
 
             label = "mouse3";
         };
+
+        qwerty_numpad {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "qwerty_numpad";
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
