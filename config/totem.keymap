@@ -421,10 +421,10 @@
 
         qwerty_numpad {
             bindings = <
-        &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &kp KP_ENTER  &kp KP_DOT    &trans  &trans  &trans
+        &trans           &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans
+        &kp KP_NUMBER_0  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans  &kp KP_ENTER  &kp KP_DOT    &trans  &trans  &trans
             >;
 
             label = "qwerty_numpad";
