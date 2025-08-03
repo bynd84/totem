@@ -58,9 +58,9 @@
         };
 
         mouse {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <15 19>;
-            layers = <9 0 1>;
+            layers = <10 0 1>;
         };
 
         toggle_left_nav {
@@ -76,9 +76,9 @@
         };
 
         mouse3 {
-            bindings = <&tog 11>;
+            bindings = <&tog 12>;
             key-positions = <10 14>;
-            layers = <0 11 2 1>;
+            layers = <0 12 2 1>;
         };
 
         br_l {
@@ -315,10 +315,10 @@
 
         wsad {
             bindings = <
-           &kp TAB    &kp N1  &kp N2               &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp A   &kp W                &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp Q   &kp S                &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &layer_stlayer 12 3  &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
+           &kp TAB    &kp N1  &kp N2              &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp A   &kp W               &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp Q   &kp S               &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+                              &layer_stlayer 9 3  &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -387,12 +387,23 @@
             label = "np";
         };
 
+        qwerty_numpad {
+            bindings = <
+        &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE      &trans  &trans  &trans  &trans  &trans
+        &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY    &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS       &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans           &kp KP_ENTER     &kp KP_DOT         &trans  &trans  &trans
+            >;
+
+            label = "qwerty_numpad";
+        };
+
         mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
         &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 10
+                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &mo 11
             >;
 
             label = "mouse";
@@ -417,17 +428,6 @@
             >;
 
             label = "mouse3";
-        };
-
-        qwerty_numpad {
-            bindings = <
-        &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE      &trans  &trans  &trans  &trans  &trans
-        &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY    &trans  &trans  &trans  &trans  &trans
-&trans  &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS       &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans           &kp KP_ENTER     &kp KP_DOT         &trans  &trans  &trans
-            >;
-
-            label = "qwerty_numpad";
         };
     };
 
