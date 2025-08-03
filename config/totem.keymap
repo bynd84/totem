@@ -173,13 +173,13 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <13 24>;
-            layers = <0 1 4>;
+            layers = <0 1>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <14 25>;
-            layers = <0 1 4>;
+            layers = <0 1>;
         };
 
         beakl_l {
@@ -299,7 +299,7 @@
            &kp TAB    &kp N1  &kp N2  &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp A   &kp W   &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S   &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &sl 3   &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
+                              &sl 4   &layer_stlayer 6 5  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -308,20 +308,20 @@
         wsad2 {
             label = "wsad2";
             bindings = <
-           &kp P      &kp O    &kp I      &kp U     &kp Y       &trans  &trans  &trans  &trans  &trans
-           &kp RALT   &kp L    &kp K      &kp J     &kp H       &trans  &trans  &trans  &trans  &trans
-&kp RSHFT  &kp RCTRL  &kp DOT  &kp COMMA  &kp M     &kp N       &trans  &trans  &trans  &trans  &trans  &trans
-                               &kp APOS   &kp SEMI  &kp FSLH    &trans  &trans  &trans
+          &kp P      &kp O    &kp I      &kp U     &kp Y       &trans  &trans  &trans  &trans  &trans
+          &kp RALT   &kp L    &kp K      &kp J     &kp H       &trans  &trans  &trans  &trans  &trans
+&kp BSLH  &kp RCTRL  &kp DOT  &kp COMMA  &kp M     &kp N       &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp APOS   &kp SEMI  &kp FSLH    &trans  &trans  &trans
             >;
         };
 
         wsad3 {
             label = "wsad3";
             bindings = <
-           &kp GRAVE  &kp N5  &kp N6  &kp N7    &kp N8    &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp N9  &kp N0  &kp BSLH  &trans    &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp T   &kp G     &kp B     &trans  &trans  &trans
+           &kp GRAVE  &kp N5  &kp N6  &kp N7     &kp N8       &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp N9  &kp N0  &kp MINUS  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp Z   &kp X   &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp T   &kp G      &kp B        &trans  &trans  &trans
             >;
         };
 
@@ -340,8 +340,8 @@
             label = "wsad_nav";
             bindings = <
            &kp LGUI   &kp HOME        &kp BSPC      &kp END          &kp PG_UP        &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp ESC         &kp DOWN      &kp ENTER        &kp DEL          &trans  &trans  &trans  &trans  &trans  &trans
+           &kp RALT   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans
+&kp RSHFT  &kp RCTRL  &kp ESC         &kp DOWN      &kp ENTER        &kp DEL          &trans  &trans  &trans  &trans  &trans  &trans
                                       &mo 7         &mo 7            &kp INS          &trans  &trans  &trans
             >;
         };
