@@ -280,9 +280,9 @@
 
         beakl {
             bindings = <
-                &kp Q  &kp Y             &kp O     &kp U    &kp Z        &kp L      &kp D      &kp N  &kp C  &kp K
+                &kp Q  &kp Y             &kp O     &kp U    &kp Z        &kp W      &kp D      &kp N  &kp C  &kp K
                 &kp H  &kp I             &kp E     &kp A    &kp COMMA    &kp G      &kp T      &kp R  &kp S  &kp P
-&mt LALT GRAVE  &kp J  &kp SINGLE_QUOTE  &kp FSLH  &kp DOT  &kp X        &kp V      &kp M      &kp W  &kp F  &kp B  &mt RALT BACKSLASH
+&mt LALT GRAVE  &kp J  &kp SINGLE_QUOTE  &kp FSLH  &kp DOT  &kp X        &kp V      &kp M      &kp L  &kp F  &kp B  &mt RALT BACKSLASH
                                          &trans    &mo 7    &kp LSHFT    &kp SPACE  &kp RCTRL  &mo 6
             >;
 
