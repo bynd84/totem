@@ -205,6 +205,18 @@
             key-positions = <3 4>;
             layers = <0 1 6>;
         };
+
+        q_br_l {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <22 11>;
+            layers = <4>;
+        };
+
+        q_br_r {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <23 12>;
+            layers = <4>;
+        };
     };
 
     behaviors {
