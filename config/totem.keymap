@@ -315,10 +315,10 @@
 
         wsad {
             bindings = <
-           &kp TAB    &kp N1  &kp N2  &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp A   &kp W   &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp Q   &kp S   &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &sl 3   &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
+           &kp TAB    &kp N1  &kp N2               &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp A   &kp W                &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp Q   &kp S                &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+                              &layer_stlayer 12 3  &layer_stlayer 6 4  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
@@ -421,10 +421,10 @@
 
         qwerty_numpad {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &kp KP_ENTER  &kp KP_DOT    &trans  &trans  &trans
             >;
 
             label = "qwerty_numpad";
