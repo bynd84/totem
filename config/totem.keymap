@@ -319,7 +319,7 @@
             label = "wsad3";
             bindings = <
            &kp GRAVE  &kp N5  &kp N6  &kp N7    &kp N8    &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp N9  &kp N0  &kp BSLH  &kp A     &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp N9  &kp N0  &kp BSLH  &trans     &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &trans  &trans  &trans  &trans  &trans  &trans
                               &kp T   &kp G     &kp B     &trans  &trans  &trans
             >;
