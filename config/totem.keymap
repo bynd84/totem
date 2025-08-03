@@ -220,7 +220,7 @@
 
         q_quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <13 24>;
+            key-positions = <1 11>;
             layers = <4>;
         };
     };
