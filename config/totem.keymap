@@ -227,7 +227,7 @@
 
         qwerty2 {
             bindings = <&sl 3>;
-            key-positions = <11 1>;
+            key-positions = <24 25>;
             layers = <2>;
         };
     };
