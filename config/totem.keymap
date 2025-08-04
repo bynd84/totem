@@ -199,12 +199,6 @@
             layers = <0>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <3 4>;
-            layers = <0 1 6>;
-        };
-
         q_br_l {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <22 11>;
