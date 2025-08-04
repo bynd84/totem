@@ -94,7 +94,7 @@
         quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 18>;
-            layers = <0>;
+            layers = <1>;
         };
 
         st_nav {
@@ -181,13 +181,13 @@
             layers = <0 1>;
         };
 
-        beakl_l {
+        qwerty_l {
             bindings = <&tog 1>;
             key-positions = <20 34>;
             layers = <0 1>;
         };
 
-        beakl_r {
+        qwerty_r {
             bindings = <&tog 1>;
             key-positions = <35 31>;
             layers = <0 1>;
@@ -196,7 +196,7 @@
         semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <8 18>;
-            layers = <1>;
+            layers = <0>;
         };
 
         tab {
