@@ -25,10 +25,9 @@
 #define np    8
 #define qwerty_numpad    9
 #define mouse    10
-#define mouse2    11
-#define mouse3    12
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
+#define mouse3    11
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 150  // default: 600
+
 
 &mmv {
     time-to-max-speed-ms = <0>;
@@ -406,10 +405,10 @@
 
         mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans
-        &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &kp C_VOL_DN     &trans
-                        &trans  &trans  &trans    &mmv MOVE_Y(1500)  &mmv MOVE_DOWN      &trans
+        &trans  &trans  &trans  &trans  &trans    &trans             &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &trans
+        &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(15)    &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &mkp LCLK
+&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_Y(-15)   &mkp LCLK           &mkp MCLK           &mkp RCLK          &mkp RCLK     &trans
+                        &trans  &trans  &trans    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN      &trans
             >;
 
             label = "mouse";
@@ -417,10 +416,10 @@
 
         mouse3 {
             bindings = <
-        &trans  &mmv MOVE_X(-1500)  &mmv MOVE_Y(-1500)  &mmv MOVE_X(1500)  &trans               &trans  &trans  &trans  &trans  &trans
-        &trans  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc MOVE_Y(15)      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc MOVE_Y(-15)     &trans  &trans  &trans  &trans  &trans  &trans
-                                    &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1500)    &trans  &trans  &trans
+        &trans  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1500)  &trans               &trans  &trans  &trans  &trans  &trans
+        &mkp LCLK  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc MOVE_Y(15)      &trans  &trans  &trans  &trans  &trans
+&trans  &mkp RCLK  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc MOVE_Y(-15)     &trans  &trans  &trans  &trans  &trans  &trans
+                                    &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &trans  &trans  &trans
             >;
 
             label = "mouse3";
