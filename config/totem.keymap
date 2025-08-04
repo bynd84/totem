@@ -282,7 +282,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        qwerty {
+        beakl19bis {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "BASE";
@@ -306,7 +306,7 @@
             >;
         };
 
-        beakl {
+        qwerty {
             bindings = <
                 &kp Q  &kp Y     &kp O     &kp U    &kp Z        &kp W      &kp D      &kp N  &kp C  &kp K
                 &kp H  &kp I     &kp E     &kp A    &kp COMMA    &kp G      &kp T      &kp R  &kp S  &kp P
@@ -314,7 +314,7 @@
                                  &none     &mo 6    &kp LSHFT    &kp SPACE  &kp LCTRL  &mo 5
             >;
 
-            label = "beakl";
+            label = "qwerty";
         };
 
         wsad {
