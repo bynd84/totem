@@ -224,6 +224,12 @@
             key-positions = <1 11>;
             layers = <4>;
         };
+
+        qwerty2 {
+            bindings = <&sl 3>;
+            key-positions = <11 1>;
+            layers = <2>;
+        };
     };
 
     behaviors {
