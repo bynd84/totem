@@ -346,7 +346,7 @@
            &kp TAB    &kp N1  &kp N2  &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
            &kp LALT   &kp A   &kp W   &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S   &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &mo 8   &layer_stlayer 5 0  &kp SPACE    &trans  &trans  &trans
+                              &mo 8   &layer_stlayer 5 3  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
