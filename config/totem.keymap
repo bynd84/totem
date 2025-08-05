@@ -292,6 +292,7 @@
             bindings = <&kp B>;
             key-positions = <24 25>;
             layers = <2>;
+            timeout-ms = <10>;
         };
 
         qwerty_min {
