@@ -330,6 +330,7 @@
             bindings = <&tog 8>;
             key-positions = <1 2 3>;
             layers = <0 5 2 1>;
+            timeout-ms = <15>;
         };
     };
 
