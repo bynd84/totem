@@ -217,9 +217,39 @@
             layers = <4>;
         };
 
-        qwerty2 {
-            bindings = <&sl 3>;
-            key-positions = <24 25>;
+        qwerty_5 {
+            bindings = <&kp N5>;
+            key-positions = <1 11>;
+            layers = <2>;
+        };
+
+        qwerty_6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <12 2>;
+            layers = <2>;
+        };
+
+        qwerty_7 {
+            bindings = <&kp N7>;
+            key-positions = <3 13>;
+            layers = <2>;
+        };
+
+        qwerty_8 {
+            bindings = <&kp N8>;
+            key-positions = <4 14>;
+            layers = <2>;
+        };
+
+        qwerty_9 {
+            bindings = <&kp N9>;
+            key-positions = <1 12>;
+            layers = <2>;
+        };
+
+        qwerty_0 {
+            bindings = <&kp N0>;
+            key-positions = <12 3>;
             layers = <2>;
         };
     };
