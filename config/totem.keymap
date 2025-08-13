@@ -332,6 +332,20 @@
             layers = <0 5 2 1>;
             timeout-ms = <15>;
         };
+
+        qwerty_esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+            timeout-ms = <15>;
+            layers = <2>;
+        };
+
+        qwerty_ent {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3>;
+            timeout-ms = <15>;
+            layers = <2>;
+        };
     };
 
     behaviors {
