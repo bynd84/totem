@@ -335,14 +335,7 @@
 
         qwerty_esc {
             bindings = <&kp ESC>;
-            key-positions = <1 2>;
-            timeout-ms = <15>;
-            layers = <2>;
-        };
-
-        qwerty_ent {
-            bindings = <&kp ENTER>;
-            key-positions = <2 3>;
+            key-positions = <1 0>;
             timeout-ms = <15>;
             layers = <2>;
         };
