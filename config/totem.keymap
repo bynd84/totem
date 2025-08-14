@@ -96,8 +96,8 @@
             layers = <1>;
         };
 
-        st_nav {
-            bindings = <&sl 5>;
+        st_nump {
+            bindings = <&sl 8>;
             key-positions = <1 3>;
             layers = <0 1>;
         };
@@ -331,13 +331,6 @@
             key-positions = <1 2 3>;
             layers = <0 5 2 1>;
             timeout-ms = <15>;
-        };
-
-        qwerty_esc {
-            bindings = <&kp ESC>;
-            key-positions = <1 0>;
-            timeout-ms = <15>;
-            layers = <2>;
         };
     };
 
