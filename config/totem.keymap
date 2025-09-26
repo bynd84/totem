@@ -201,20 +201,20 @@
 
         q_br_l {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <22 11>;
-            layers = <3>;
+            key-positions = <22 11 33>;
+            layers = <2>;
         };
 
         q_br_r {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <23 12>;
-            layers = <3>;
+            key-positions = <23 12 33>;
+            layers = <2>;
         };
 
         q_quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <1 11>;
-            layers = <3>;
+            key-positions = <1 11 33>;
+            layers = <2>;
         };
 
         qwerty_5 {
@@ -322,8 +322,8 @@
 
         qwerty_grave {
             bindings = <&kp GRAVE>;
-            key-positions = <0 1>;
-            layers = <3>;
+            key-positions = <0 1 33>;
+            layers = <2>;
         };
 
         nump {
@@ -331,6 +331,36 @@
             key-positions = <1 2 3>;
             layers = <0 2 1 8>;
             timeout-ms = <15>;
+        };
+
+        qwerty_y {
+            bindings = <&kp Y>;
+            key-positions = <4 33>;
+            layers = <2>;
+        };
+
+        qwerty_u {
+            bindings = <&kp U>;
+            key-positions = <33 3>;
+            layers = <2>;
+        };
+
+        qwerty_i {
+            bindings = <&kp I>;
+            key-positions = <33 2>;
+            layers = <2>;
+        };
+
+        qwerty_o {
+            bindings = <&kp O>;
+            key-positions = <33 1>;
+            layers = <2>;
+        };
+
+        qwerty_p {
+            bindings = <&kp P>;
+            key-positions = <33 0>;
+            layers = <2>;
         };
     };
 
