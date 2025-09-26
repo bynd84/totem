@@ -17,14 +17,13 @@
 #define BASE   0
 #define beakl   1
 #define wsad   2
-#define wsad2    3
-#define qwerty_digits    4
-#define wsad_nav   5
-#define fk   6
-#define np    7
-#define qwerty_numpad    8
-#define mouse    9
-#define mouse3    10
+#define qwerty_digits    3
+#define wsad_nav   4
+#define fk   5
+#define np    6
+#define qwerty_numpad    7
+#define mouse    8
+#define mouse3    9
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 80  // default: 600
 
 &mmv {
