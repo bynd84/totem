@@ -310,14 +310,14 @@
 
         qwerty_min {
             bindings = <&kp MINUS>;
-            key-positions = <32 33>;
-            layers = <3>;
+            key-positions = <33 12 2>;
+            layers = <2>;
         };
 
         qwerty_equ {
             bindings = <&kp EQUAL>;
-            key-positions = <33 34>;
-            layers = <3>;
+            key-positions = <33 3 13>;
+            layers = <2>;
         };
 
         qwerty_grave {
@@ -360,6 +360,54 @@
         qwerty_p {
             bindings = <&kp P>;
             key-positions = <33 0>;
+            layers = <2>;
+        };
+
+        qwerty_h {
+            bindings = <&kp H>;
+            key-positions = <33 14>;
+            layers = <2>;
+        };
+
+        qwerty_j {
+            bindings = <&kp J>;
+            key-positions = <33 13>;
+            layers = <2>;
+        };
+
+        qwerty_k {
+            bindings = <&kp K>;
+            key-positions = <33 12>;
+            layers = <2>;
+        };
+
+        qwerty_l_key {
+            bindings = <&kp L>;
+            key-positions = <33 11>;
+            layers = <2>;
+        };
+
+        qwerty_n {
+            bindings = <&kp N>;
+            key-positions = <33 25>;
+            layers = <2>;
+        };
+
+        qwerty_m {
+            bindings = <&kp M>;
+            key-positions = <33 24>;
+            layers = <2>;
+        };
+
+        qwerty_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <33 23>;
+            layers = <2>;
+        };
+
+        qwerty_period {
+            bindings = <&kp PERIOD>;
+            key-positions = <33 22>;
             layers = <2>;
         };
     };
@@ -453,10 +501,10 @@
 
         wsad {
             bindings = <
-           &kp TAB    &kp N1  &kp N2       &kp N3              &kp N4       &trans  &trans  &trans  &trans  &trans
-           &kp LALT   &kp A   &kp W        &kp D               &kp F        &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp Q   &kp S        &kp E               &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-                              &key_repeat  &layer_stlayer 5 3  &kp SPACE    &trans  &trans  &trans
+           &kp TAB    &kp N1  &kp N2       &kp N3  &kp N4       &trans  &trans  &trans  &trans  &trans
+           &kp LALT   &kp A   &kp W        &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp Q   &kp S        &kp E   &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+                              &key_repeat  &mo 5   &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "wsad";
