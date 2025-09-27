@@ -418,13 +418,13 @@
 
         qwerty_slash {
             bindings = <&kp SLASH>;
-            key-positions = <33 4 14>;
+            key-positions = <33 14 25>;
             layers = <2>;
         };
 
         qwerty_bslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <33 14 25>;
+            key-positions = <33 14 4>;
             layers = <2>;
         };
     };
