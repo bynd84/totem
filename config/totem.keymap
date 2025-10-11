@@ -431,7 +431,7 @@
 
         wsad_bldsw {
             bindings = <&bl_w_sw>;
-            key-positions = <32 33>;
+            key-positions = <22 24>;
             timeout-ms = <15>;
             layers = <0>;
         };
