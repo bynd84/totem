@@ -428,6 +428,13 @@
             key-positions = <33 14 4>;
             layers = <0>;
         };
+
+        wsad_bldsw {
+            bindings = <&bl_w_sw>;
+            key-positions = <3 4>;
+            timeout-ms = <15>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -474,6 +481,15 @@
             quick-tap-ms = <0>;
             tapping-term-ms = <250>;
             require-prior-idle-ms = <0>;
+        };
+    };
+
+    macros {
+        bl_w_sw: bl_w_sw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_SHIFT &sl 5>;
+            label = "BL_W_SW";
         };
     };
 
