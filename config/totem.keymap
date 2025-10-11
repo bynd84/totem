@@ -429,10 +429,15 @@
             layers = <0>;
         };
 
-        wsad_bldsw {
-            bindings = <&bl_w_sw>;
-            key-positions = <22 24>;
-            timeout-ms = <45>;
+        wsad_cpgup {
+            bindings = <&kp LC(PG_UP)>;
+            key-positions = <32 12>;
+            layers = <0>;
+        };
+
+        wsad_cpgdn {
+            bindings = <&kp LC(PAGE_DOWN)>;
+            key-positions = <32 23>;
             layers = <0>;
         };
     };
@@ -481,15 +486,6 @@
             quick-tap-ms = <0>;
             tapping-term-ms = <250>;
             require-prior-idle-ms = <0>;
-        };
-    };
-
-    macros {
-        bl_w_sw: bl_w_sw {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT &sl 5>;
-            label = "BL_W_SW";
         };
     };
 
