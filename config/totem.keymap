@@ -95,12 +95,6 @@
             layers = <2>;
         };
 
-        st_nump {
-            bindings = <&sl 7>;
-            key-positions = <1 3>;
-            layers = <1 2 0>;
-        };
-
         st_fkeys {
             bindings = <&sl 5>;
             key-positions = <13 14>;
