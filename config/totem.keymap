@@ -443,7 +443,7 @@
             timeout-ms = <45>;
         };
 
-        num_mult {
+        num_div {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <1 11>;
             layers = <7>;
