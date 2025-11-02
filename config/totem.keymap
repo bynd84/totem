@@ -442,6 +442,36 @@
             layers = <0>;
             timeout-ms = <45>;
         };
+
+        num_mult {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <1 11>;
+            layers = <7>;
+        };
+
+        num_mult {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <2 12>;
+            layers = <7>;
+        };
+
+        num_minus {
+            bindings = <&kp KP_SUBTRACT>;
+            key-positions = <3 13>;
+            layers = <7>;
+        };
+
+        num_plus {
+            bindings = <&kp KP_PLUS>;
+            key-positions = <13 24>;
+            layers = <7>;
+        };
+
+        num_nlock {
+            bindings = <&kp KP_NUMLOCK>;
+            key-positions = <22 11>;
+            layers = <7>;
+        };
     };
 
     behaviors {
