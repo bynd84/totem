@@ -472,12 +472,6 @@
             key-positions = <23 12>;
             layers = <7>;
         };
-
-        hldW {
-            bindings = <&kp W>;
-            key-positions = <12 1 34>;
-            layers = <0>;
-        };
     };
 
     behaviors {
