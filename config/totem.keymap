@@ -475,7 +475,7 @@
 
         hld_w {
             bindings = <&kt W>;
-            key-positions = <33 12 1>;
+            key-positions = <12 2 34>;
             layers = <0>;
         };
     };
