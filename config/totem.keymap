@@ -472,6 +472,12 @@
             key-positions = <23 12>;
             layers = <7>;
         };
+
+        hold_w {
+            bindings = <&kt W>;
+            key-positions = <33 11 12>;
+            layers = <0>;
+        };
     };
 
     behaviors {
