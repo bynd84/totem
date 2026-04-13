@@ -177,7 +177,7 @@
         qwerty_l {
             bindings = <&tog 2>;
             key-positions = <20 34>;
-            layers = <1 2>;
+            layers = <1 2 0>;
         };
 
         qwerty_r {
